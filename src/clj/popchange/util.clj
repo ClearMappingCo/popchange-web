@@ -1,5 +1,6 @@
 (ns popchange.util
-  (:require  [ring.util.response :as response]))
+  (:require  [ring.util.response :as response]
+             [clojure.java.io :as io]))
 
 (defn md5
   [s]
@@ -16,7 +17,7 @@
   "Slurp the bytes from a slurpable thing"
   [x]
   (with-open [out (java.io.ByteArrayOutputStream.)]
-    (clojure.java.io/copy (clojure.java.io/input-stream x) out)
+    (io/copy (clojure.java.io/input-stream x) out)
     (.toByteArray out)))
 
 (defn byte-array-response
@@ -25,4 +26,5 @@
   (let [byte-array (slurp-bytes filename)]
     (-> (response/response (java.io.ByteArrayInputStream. byte-array))
         (response/content-type content-type)
-        (response/header "Content-Length" (alength byte-array)))))
+        (response/header "Content-Length" (alength byte-array))
+        (response/header "Content-Disposition" (str "inline; filename=" (.getName (io/as-file filename)))))))

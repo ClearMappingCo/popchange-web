@@ -96,6 +96,8 @@
        :img-src-tiff (str "/raster-calc-tiff?id=" calc-id)
        :img-src-jpeg (str "/raster-calc-jpeg?id=" calc-id)
        :img-src-png (str "/raster-calc-png?id=" calc-id)
+       :img-src-shp (str "/raster-calc-shp?id=" calc-id)
+       :img-src-tab (str "/raster-calc-tab?id=" calc-id)
        :cumulative-cut cc
        :info info}
       (if-let [pdf (:pdf params)]
@@ -168,6 +170,12 @@
      (:fullname user))
     (util/byte-array-response filename "application/pdf")))
 
+(defn vector-zip!
+  [convert-fn id]
+  (let [filename (raster-calc/working-dir-file id "zip")]
+    (convert-fn (raster-calc/working-dir-file id) filename)
+    (util/byte-array-response filename "application/zip")))
+
 (defn counts-or-rates
   [src dst]
   (let [enabled (raster-calc/all-attribs-have-rates-tables? [(Integer/parseInt src) (Integer/parseInt dst)])]
@@ -186,6 +194,9 @@
   (GET "/raster-calc-tiff" [id] (util/byte-array-response (raster-calc/working-dir-file id) "image/tiff"))
   (GET "/raster-calc-jpeg" [id] (util/byte-array-response (raster-calc/working-dir-file id "jpeg") "image/jpeg"))
   (GET "/raster-calc-png" [id] (util/byte-array-response (raster-calc/working-dir-file id "png") "image/png"))
+
+  (GET "/raster-calc-shp" [id] (vector-zip! raster-calc/tiff->shapefile-zip! id))
+  (GET "/raster-calc-tab" [id] (vector-zip! raster-calc/tiff->mapinfo-zip! id))
 
   (GET "/raster-calc-pdf" request (pdf! request))
 
