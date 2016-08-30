@@ -4,9 +4,6 @@ import sys, numpy
 gdal.UseExceptions()
 
 try:
-    # raster = gdal.Open( "/tmp/popchange/cache_d49703fba304409d315998b001c1ec9d.tiff")
-    # raster = gdal.Open( "/tmp/popchange/cache_f98a2f817fdb38c9395a2501ef4bf171.tiff")
-    # raster = gdal.Open("/tmp/popchange/cache_a5742dfda81f95a415e3e1a136b920d2.tiff")
     raster = gdal.Open(sys.argv[1])
 except RuntimeError, e:
     print 'Unable to open TIFF'
@@ -30,19 +27,11 @@ pixelHeight = transform[5]
 
 # print xOrigin, yOrigin, pixelWidth, pixelHeight
 
-# xmin = min(pointsX)
-# xmax = max(pointsX)
-# ymin = min(pointsY)
-# ymax = max(pointsY)
-
-
-# print raster.GetMetadata(), transform
-
 rasterdata = band.ReadAsArray().astype(numpy.float)
 maskedrd = numpy.ma.masked_array(rasterdata, rasterdata == -1.0)
 
 
-# Apply mask using list
+# Apply mask using list (way of explictly adding additional values to mask)
 # http://stackoverflow.com/questions/11146229/creating-a-masked-array-in-python-with-multiple-given-values
 # maskedrd = numpy.ma.array(rasterdata, mask=(~np.isfinite(a) | (a == -999)))
 # maskedrd = numpy.ma.array(rasterdata, mask=numpy.logical_or.reduce([rasterdata == value for value in [-1.0, 0.0]]))
