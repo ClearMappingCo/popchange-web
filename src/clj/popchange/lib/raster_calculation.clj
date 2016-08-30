@@ -315,7 +315,7 @@
            (s/replace "{REPLACE_COLOUR_RAMP}" (apply str (colour-map-stops-xml stops)))))
       (python raster-to-png-script tiff style-filename png))))
 
-(defn tiff->vector!
+(defn tiff->vector-zip!
   [tiff dst vector-file-ext ogr-format]
   (let [basename (util/md5 tiff)
         wd (wdir "/" basename "_tmp")
@@ -329,8 +329,8 @@
 
 (defn tiff->shapefile-zip!
   [tiff dst]
-  (tiff->vector! tiff dst ".shp" "ESRI Shapefile"))
+  (tiff->vector-zip! tiff dst ".shp" "ESRI Shapefile"))
 
 (defn tiff->mapinfo-zip!
   [tiff dst]
-  (tiff->vector! tiff dst ".tab" "Mapinfo File"))
+  (tiff->vector-zip! tiff dst ".tab" "Mapinfo File"))
