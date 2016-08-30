@@ -1,0 +1,13 @@
+{:working-dir "/tmp/popchange"
+ :host "http://localhost:3000"
+ :source-data-host "https://popchange-data.liverpool.ac.uk"
+ 
+ :db {:host "127.0.01"
+      :port "5432"
+      :name "gis1"
+      :user "user"
+      :pass nil}
+ 
+ :mail {:sender "changeme@example.com"}
+
+ :feedback-recips ["changeme@example.com"]}

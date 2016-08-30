@@ -1,0 +1,37 @@
+#rastercanvascontrols {
+    /* margin-bottom: 10px; */
+}
+
+/* Disabled as currently no map underneath raster */
+#rastercanvascontrols .slider {
+    display: none;
+}
+
+#rastercanvas {
+    height: 800px;
+}
+
+#rasterlegend span {
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+/*.legend-step {
+    width: 105px;
+    text-align: right;
+}*/
+
+#rasterlegend .legend-steps {
+    background-image: url('/img/legend_gradient.svg');
+    background-repeat: no-repeat;
+    background-position: 15px 3px;
+    padding-botton: 3px;
+}
+
+.summary-stats {
+    margin-top: 15px;
+}

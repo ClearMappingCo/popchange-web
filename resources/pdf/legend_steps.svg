@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="206.4138"
+   height="320.26031"
+   viewBox="0 0 206.4138 320.26031"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="legend_steps.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4340">
+      <stop
+         style="stop-color:#0d7cff;stop-opacity:1"
+         offset="0"
+         id="stop4328" />
+      <stop
+         id="stop4358"
+         offset="0.25"
+         style="stop-color:#0ce86a;stop-opacity:1" />
+      <stop
+         style="stop-color:#e3ff00;stop-opacity:1"
+         offset="0.5"
+         id="stop4352" />
+      <stop
+         style="stop-color:#e89000;stop-opacity:1"
+         offset="0.75"
+         id="stop4360" />
+      <stop
+         style="stop-color:#ff0c00;stop-opacity:1"
+         offset="1"
+         id="stop4330" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4340"
+       id="linearGradient4306"
+       x1="48.48732"
+       y1="1037.2098"
+       x2="48.48732"
+       y2="769.01434"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.9798991,0,0,1.118587,-46.000004,-107.84727)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-23.532948"
+     inkscape:cy="152.10416"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1274"
+     inkscape:window-height="777"
+     inkscape:window-x="0"
+     inkscape:window-y="17"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4356"
+       originx="0"
+       originy="10.162792" />
+    <sodipodi:guide
+       position="-120,240.16279"
+       orientation="0,1"
+       id="guide4422" />
+    <sodipodi:guide
+       position="-25,310.16278"
+       orientation="0,1"
+       id="guide4426" />
+    <sodipodi:guide
+       position="115,150.16279"
+       orientation="1,0"
+       id="guide4446" />
+    <sodipodi:guide
+       position="-230,160.16279"
+       orientation="0,1"
+       id="guide4160" />
+    <sodipodi:guide
+       position="-39.999999,80.162791"
+       orientation="0,1"
+       id="guide4162" />
+    <sodipodi:guide
+       position="115,10.162792"
+       orientation="0,1"
+       id="guide4164" />
+    <sodipodi:guide
+       position="99.999998,120.16279"
+       orientation="1,0"
+       id="guide4163" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="solid extremes">
+    <rect
+       style="fill:#ff0c00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4220"
+       width="100"
+       height="20"
+       x="0"
+       y="0.097522788" />
+    <rect
+       style="fill:#0d7cff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4224"
+       width="100"
+       height="20"
+       x="0"
+       y="300.09753" />
+  </g>
+  <g
+     inkscape:label="gradient"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-742.26463)"
+     style="display:inline">
+    <rect
+       style="fill:url(#linearGradient4306);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4183"
+       width="100"
+       height="300"
+       x="0"
+       y="752.36218" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="text">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.44286728px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.224"
+       y="319.88589"
+       id="text4382"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4384"
+         x="112.224"
+         y="319.88589"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;text-anchor:start">LSTEP0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.44286728px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.22401"
+       y="249.80658"
+       id="text4382-4"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4384-5"
+         x="112.22401"
+         y="249.80658"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;text-anchor:start">LSTEP1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.44286728px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.22401"
+       y="170.06224"
+       id="text4382-4-5"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4384-5-3"
+         x="112.22401"
+         y="170.06224"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;text-anchor:start">LSTEP2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.44286728px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.22401"
+       y="89.410889"
+       id="text4382-4-5-6"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4384-5-3-7"
+         x="112.22401"
+         y="89.410889"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;text-anchor:start">LSTEP3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:26.44286728px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="112.224"
+       y="19.625572"
+       id="text4382-4-5-6-5-0"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4384-5-3-7-8-7"
+         x="112.224"
+         y="19.625572"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;text-align:start;text-anchor:start">LSTEP5</tspan></text>
+  </g>
+</svg>

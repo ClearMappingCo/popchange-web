@@ -1,0 +1,2522 @@
+;; /var/www/html/popchange_data$ find . \( -name '*.asc' -o -name '*csv' -o -name '*csvt' \) -type f -printf "%p %f\n" | sort | awk '{print "{:path",  "\""$1"\"" "\n :filename",  "\""$2"\"}"}' >> index.edn
+
+[
+
+{:path "./age/1971/5a_ascii_grid1971_Age_A0.14FSi.asc"
+ :filename "5a_ascii_grid1971_Age_A0.14FSi.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A0.14MSi.asc"
+ :filename "5a_ascii_grid1971_Age_A0.14MSi.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A15.19FM.asc"
+ :filename "5a_ascii_grid1971_Age_A15.19FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A15.19FS.asc"
+ :filename "5a_ascii_grid1971_Age_A15.19FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A15.19MM.asc"
+ :filename "5a_ascii_grid1971_Age_A15.19MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A15.19MS.asc"
+ :filename "5a_ascii_grid1971_Age_A15.19MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A20.24FM.asc"
+ :filename "5a_ascii_grid1971_Age_A20.24FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A20.24FS.asc"
+ :filename "5a_ascii_grid1971_Age_A20.24FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A20.24MM.asc"
+ :filename "5a_ascii_grid1971_Age_A20.24MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A20.24MS.asc"
+ :filename "5a_ascii_grid1971_Age_A20.24MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A25.29FM.asc"
+ :filename "5a_ascii_grid1971_Age_A25.29FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A25.29FS.asc"
+ :filename "5a_ascii_grid1971_Age_A25.29FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A25.29MM.asc"
+ :filename "5a_ascii_grid1971_Age_A25.29MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A25.29MS.asc"
+ :filename "5a_ascii_grid1971_Age_A25.29MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A30.34FM.asc"
+ :filename "5a_ascii_grid1971_Age_A30.34FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A30.34FS.asc"
+ :filename "5a_ascii_grid1971_Age_A30.34FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A30.34MM.asc"
+ :filename "5a_ascii_grid1971_Age_A30.34MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A30.34MS.asc"
+ :filename "5a_ascii_grid1971_Age_A30.34MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A35.39FM.asc"
+ :filename "5a_ascii_grid1971_Age_A35.39FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A35.39FS.asc"
+ :filename "5a_ascii_grid1971_Age_A35.39FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A35.39MM.asc"
+ :filename "5a_ascii_grid1971_Age_A35.39MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A35.39MS.asc"
+ :filename "5a_ascii_grid1971_Age_A35.39MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A40.44FM.asc"
+ :filename "5a_ascii_grid1971_Age_A40.44FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A40.44FS.asc"
+ :filename "5a_ascii_grid1971_Age_A40.44FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A40.44MM.asc"
+ :filename "5a_ascii_grid1971_Age_A40.44MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A40.44MS.asc"
+ :filename "5a_ascii_grid1971_Age_A40.44MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A45.49FM.asc"
+ :filename "5a_ascii_grid1971_Age_A45.49FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A45.49FS.asc"
+ :filename "5a_ascii_grid1971_Age_A45.49FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A45.49MM.asc"
+ :filename "5a_ascii_grid1971_Age_A45.49MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A45.49MS.asc"
+ :filename "5a_ascii_grid1971_Age_A45.49MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A50.54FM.asc"
+ :filename "5a_ascii_grid1971_Age_A50.54FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A50.54FS.asc"
+ :filename "5a_ascii_grid1971_Age_A50.54FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A50.54MM.asc"
+ :filename "5a_ascii_grid1971_Age_A50.54MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A50.54MS.asc"
+ :filename "5a_ascii_grid1971_Age_A50.54MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A55.59FM.asc"
+ :filename "5a_ascii_grid1971_Age_A55.59FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A55.59FS.asc"
+ :filename "5a_ascii_grid1971_Age_A55.59FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A55.59MM.asc"
+ :filename "5a_ascii_grid1971_Age_A55.59MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A55.59MS.asc"
+ :filename "5a_ascii_grid1971_Age_A55.59MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A60.64FM.asc"
+ :filename "5a_ascii_grid1971_Age_A60.64FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A60.64FS.asc"
+ :filename "5a_ascii_grid1971_Age_A60.64FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A60.64MM.asc"
+ :filename "5a_ascii_grid1971_Age_A60.64MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A60.64MS.asc"
+ :filename "5a_ascii_grid1971_Age_A60.64MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A65.69FM.asc"
+ :filename "5a_ascii_grid1971_Age_A65.69FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A65.69FS.asc"
+ :filename "5a_ascii_grid1971_Age_A65.69FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A65.69MM.asc"
+ :filename "5a_ascii_grid1971_Age_A65.69MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A65.69MS.asc"
+ :filename "5a_ascii_grid1971_Age_A65.69MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A70.75FM.asc"
+ :filename "5a_ascii_grid1971_Age_A70.75FM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A70.75FS.asc"
+ :filename "5a_ascii_grid1971_Age_A70.75FS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A70.75MM.asc"
+ :filename "5a_ascii_grid1971_Age_A70.75MM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A70.75MS.asc"
+ :filename "5a_ascii_grid1971_Age_A70.75MS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A75pFM.asc"
+ :filename "5a_ascii_grid1971_Age_A75pFM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A75pFS.asc"
+ :filename "5a_ascii_grid1971_Age_A75pFS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A75pMM.asc"
+ :filename "5a_ascii_grid1971_Age_A75pMM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_A75pMS.asc"
+ :filename "5a_ascii_grid1971_Age_A75pMS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_ATotFM.asc"
+ :filename "5a_ascii_grid1971_Age_ATotFM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_ATotFS.asc"
+ :filename "5a_ascii_grid1971_Age_ATotFS.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_ATotMM.asc"
+ :filename "5a_ascii_grid1971_Age_ATotMM.asc"}
+{:path "./age/1971/5a_ascii_grid1971_Age_ATotMS.asc"
+ :filename "5a_ascii_grid1971_Age_ATotMS.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age0_4.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age0_4.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age10_14.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age10_14.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age15.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age15.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age16_19.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age16_19.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age20_24.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age20_24.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age25_29.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age25_29.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age30_34.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age30_34.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age35_39.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age35_39.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age40_44.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age40_44.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age45_49.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age45_49.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age50_54.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age50_54.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age55_59.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age55_59.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age5_9.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age5_9.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age60_64.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age60_64.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age65_69.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age65_69.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age70_74.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age70_74.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age75_79.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age75_79.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age80_84.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age80_84.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_Age85plus.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_Age85plus.asc"}
+{:path "./age/1981/5a_ascii_grid20160310d_GB_1981_AgeAll.asc"
+ :filename "5a_ascii_grid20160310d_GB_1981_AgeAll.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age0_4.asc"
+ :filename "5a_ascii_grid1991_Age_Age0_4.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age0_4_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age0_4_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age10_14.asc"
+ :filename "5a_ascii_grid1991_Age_Age10_14.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age10_14_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age10_14_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age15.asc"
+ :filename "5a_ascii_grid1991_Age_Age15.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age15_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age15_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age16_17.asc"
+ :filename "5a_ascii_grid1991_Age_Age16_17.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age16_17_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age16_17_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age18_19.asc"
+ :filename "5a_ascii_grid1991_Age_Age18_19.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age18_19_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age18_19_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age20_24.asc"
+ :filename "5a_ascii_grid1991_Age_Age20_24.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age20_24_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age20_24_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age25_29.asc"
+ :filename "5a_ascii_grid1991_Age_Age25_29.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age25_29_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age25_29_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age30_34.asc"
+ :filename "5a_ascii_grid1991_Age_Age30_34.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age30_34_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age30_34_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age35_39.asc"
+ :filename "5a_ascii_grid1991_Age_Age35_39.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age35_39_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age35_39_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age40_44.asc"
+ :filename "5a_ascii_grid1991_Age_Age40_44.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age40_44_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age40_44_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age45_49.asc"
+ :filename "5a_ascii_grid1991_Age_Age45_49.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age45_49_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age45_49_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age50_54.asc"
+ :filename "5a_ascii_grid1991_Age_Age50_54.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age50_54_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age50_54_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age55_59.asc"
+ :filename "5a_ascii_grid1991_Age_Age55_59.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age55_59_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age55_59_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age5_9.asc"
+ :filename "5a_ascii_grid1991_Age_Age5_9.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age5_9_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age5_9_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age60_64.asc"
+ :filename "5a_ascii_grid1991_Age_Age60_64.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age60_64_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age60_64_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age65_69.asc"
+ :filename "5a_ascii_grid1991_Age_Age65_69.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age65_69_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age65_69_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age70_74.asc"
+ :filename "5a_ascii_grid1991_Age_Age70_74.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age70_74_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age70_74_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age75_79.asc"
+ :filename "5a_ascii_grid1991_Age_Age75_79.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age75_79_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age75_79_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age80_84.asc"
+ :filename "5a_ascii_grid1991_Age_Age80_84.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age80_84_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age80_84_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age85_89.asc"
+ :filename "5a_ascii_grid1991_Age_Age85_89.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age85_89_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age85_89_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age90plus.asc"
+ :filename "5a_ascii_grid1991_Age_Age90plus.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_Age90plus_pc.asc"
+ :filename "5a_ascii_grid1991_Age_Age90plus_pc.asc"}
+{:path "./age/1991/5a_ascii_grid1991_Age_AgeAll.asc"
+ :filename "5a_ascii_grid1991_Age_AgeAll.asc"}
+{:path "./age/1991/lookup_1991_Age_Age0_4.csv"
+ :filename "lookup_1991_Age_Age0_4.csv"}
+{:path "./age/1991/lookup_1991_Age_Age0_4.csvt"
+ :filename "lookup_1991_Age_Age0_4.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age10_14.csv"
+ :filename "lookup_1991_Age_Age10_14.csv"}
+{:path "./age/1991/lookup_1991_Age_Age10_14.csvt"
+ :filename "lookup_1991_Age_Age10_14.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age15.csv"
+ :filename "lookup_1991_Age_Age15.csv"}
+{:path "./age/1991/lookup_1991_Age_Age15.csvt"
+ :filename "lookup_1991_Age_Age15.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age16_17.csv"
+ :filename "lookup_1991_Age_Age16_17.csv"}
+{:path "./age/1991/lookup_1991_Age_Age16_17.csvt"
+ :filename "lookup_1991_Age_Age16_17.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age18_19.csv"
+ :filename "lookup_1991_Age_Age18_19.csv"}
+{:path "./age/1991/lookup_1991_Age_Age18_19.csvt"
+ :filename "lookup_1991_Age_Age18_19.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age20_24.csv"
+ :filename "lookup_1991_Age_Age20_24.csv"}
+{:path "./age/1991/lookup_1991_Age_Age20_24.csvt"
+ :filename "lookup_1991_Age_Age20_24.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age25_29.csv"
+ :filename "lookup_1991_Age_Age25_29.csv"}
+{:path "./age/1991/lookup_1991_Age_Age25_29.csvt"
+ :filename "lookup_1991_Age_Age25_29.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age30_34.csv"
+ :filename "lookup_1991_Age_Age30_34.csv"}
+{:path "./age/1991/lookup_1991_Age_Age30_34.csvt"
+ :filename "lookup_1991_Age_Age30_34.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age35_39.csv"
+ :filename "lookup_1991_Age_Age35_39.csv"}
+{:path "./age/1991/lookup_1991_Age_Age35_39.csvt"
+ :filename "lookup_1991_Age_Age35_39.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age40_44.csv"
+ :filename "lookup_1991_Age_Age40_44.csv"}
+{:path "./age/1991/lookup_1991_Age_Age40_44.csvt"
+ :filename "lookup_1991_Age_Age40_44.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age45_49.csv"
+ :filename "lookup_1991_Age_Age45_49.csv"}
+{:path "./age/1991/lookup_1991_Age_Age45_49.csvt"
+ :filename "lookup_1991_Age_Age45_49.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age50_54.csv"
+ :filename "lookup_1991_Age_Age50_54.csv"}
+{:path "./age/1991/lookup_1991_Age_Age50_54.csvt"
+ :filename "lookup_1991_Age_Age50_54.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age55_59.csv"
+ :filename "lookup_1991_Age_Age55_59.csv"}
+{:path "./age/1991/lookup_1991_Age_Age55_59.csvt"
+ :filename "lookup_1991_Age_Age55_59.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age5_9.csv"
+ :filename "lookup_1991_Age_Age5_9.csv"}
+{:path "./age/1991/lookup_1991_Age_Age5_9.csvt"
+ :filename "lookup_1991_Age_Age5_9.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age60_64.csv"
+ :filename "lookup_1991_Age_Age60_64.csv"}
+{:path "./age/1991/lookup_1991_Age_Age60_64.csvt"
+ :filename "lookup_1991_Age_Age60_64.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age65_69.csv"
+ :filename "lookup_1991_Age_Age65_69.csv"}
+{:path "./age/1991/lookup_1991_Age_Age65_69.csvt"
+ :filename "lookup_1991_Age_Age65_69.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age70_74.csv"
+ :filename "lookup_1991_Age_Age70_74.csv"}
+{:path "./age/1991/lookup_1991_Age_Age70_74.csvt"
+ :filename "lookup_1991_Age_Age70_74.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age75_79.csv"
+ :filename "lookup_1991_Age_Age75_79.csv"}
+{:path "./age/1991/lookup_1991_Age_Age75_79.csvt"
+ :filename "lookup_1991_Age_Age75_79.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age80_84.csv"
+ :filename "lookup_1991_Age_Age80_84.csv"}
+{:path "./age/1991/lookup_1991_Age_Age80_84.csvt"
+ :filename "lookup_1991_Age_Age80_84.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age85_89.csv"
+ :filename "lookup_1991_Age_Age85_89.csv"}
+{:path "./age/1991/lookup_1991_Age_Age85_89.csvt"
+ :filename "lookup_1991_Age_Age85_89.csvt"}
+{:path "./age/1991/lookup_1991_Age_Age90plus.csv"
+ :filename "lookup_1991_Age_Age90plus.csv"}
+{:path "./age/1991/lookup_1991_Age_Age90plus.csvt"
+ :filename "lookup_1991_Age_Age90plus.csvt"}
+{:path "./age/1991/lookup_1991_Age_AgeAll.csv"
+ :filename "lookup_1991_Age_AgeAll.csv"}
+{:path "./age/1991/lookup_1991_Age_AgeAll.csvt"
+ :filename "lookup_1991_Age_AgeAll.csvt"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age0.4.asc"
+ :filename "5a_ascii_grid2001_Age_Age0.4.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age10.14.asc"
+ :filename "5a_ascii_grid2001_Age_Age10.14.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age15.asc"
+ :filename "5a_ascii_grid2001_Age_Age15.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age16.17.asc"
+ :filename "5a_ascii_grid2001_Age_Age16.17.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age18.19.asc"
+ :filename "5a_ascii_grid2001_Age_Age18.19.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age20.24.asc"
+ :filename "5a_ascii_grid2001_Age_Age20.24.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age25.29.asc"
+ :filename "5a_ascii_grid2001_Age_Age25.29.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age30.44.asc"
+ :filename "5a_ascii_grid2001_Age_Age30.44.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age45.59.asc"
+ :filename "5a_ascii_grid2001_Age_Age45.59.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age5.7.asc"
+ :filename "5a_ascii_grid2001_Age_Age5.7.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age60.64.asc"
+ :filename "5a_ascii_grid2001_Age_Age60.64.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age65.69.asc"
+ :filename "5a_ascii_grid2001_Age_Age65.69.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age70.84.asc"
+ :filename "5a_ascii_grid2001_Age_Age70.84.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age85.89.asc"
+ :filename "5a_ascii_grid2001_Age_Age85.89.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age8.9.asc"
+ :filename "5a_ascii_grid2001_Age_Age8.9.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_Age90plu.asc"
+ :filename "5a_ascii_grid2001_Age_Age90plu.asc"}
+{:path "./age/2001/5a_ascii_grid2001_Age_AgeAll.asc"
+ :filename "5a_ascii_grid2001_Age_AgeAll.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age0.4.asc"
+ :filename "5a_ascii_grid2011_Age_Age0.4.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age10.14.asc"
+ :filename "5a_ascii_grid2011_Age_Age10.14.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age15.asc"
+ :filename "5a_ascii_grid2011_Age_Age15.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age16.17.asc"
+ :filename "5a_ascii_grid2011_Age_Age16.17.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age18.19.asc"
+ :filename "5a_ascii_grid2011_Age_Age18.19.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age20.24.asc"
+ :filename "5a_ascii_grid2011_Age_Age20.24.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age25.29.asc"
+ :filename "5a_ascii_grid2011_Age_Age25.29.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age30.44.asc"
+ :filename "5a_ascii_grid2011_Age_Age30.44.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age45.59.asc"
+ :filename "5a_ascii_grid2011_Age_Age45.59.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age5.7.asc"
+ :filename "5a_ascii_grid2011_Age_Age5.7.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age60.64.asc"
+ :filename "5a_ascii_grid2011_Age_Age60.64.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age65.69.asc"
+ :filename "5a_ascii_grid2011_Age_Age65.69.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age70.84.asc"
+ :filename "5a_ascii_grid2011_Age_Age70.84.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age85.89.asc"
+ :filename "5a_ascii_grid2011_Age_Age85.89.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age8.9.asc"
+ :filename "5a_ascii_grid2011_Age_Age8.9.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_Age90plu.asc"
+ :filename "5a_ascii_grid2011_Age_Age90plu.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_AgeAll.asc"
+ :filename "5a_ascii_grid2011_Age_AgeAll.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_AgeMean.asc"
+ :filename "5a_ascii_grid2011_Age_AgeMean.asc"}
+{:path "./age/2011/5a_ascii_grid2011_Age_AgeMedin.asc"
+ :filename "5a_ascii_grid2011_Age_AgeMedin.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BAll.asc"
+ :filename "5a_ascii_grid1971_country_birth_BAll.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BAllF02.asc"
+ :filename "5a_ascii_grid1971_country_birth_BAllF02.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BAllM01.asc"
+ :filename "5a_ascii_grid1971_country_birth_BAllM01.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BEngB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BEngB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BEngF40.asc"
+ :filename "5a_ascii_grid1971_country_birth_BEngF40.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BEngM39.asc"
+ :filename "5a_ascii_grid1971_country_birth_BEngM39.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BIRB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BIRB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BIRF48.asc"
+ :filename "5a_ascii_grid1971_country_birth_BIRF48.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BIRM47.asc"
+ :filename "5a_ascii_grid1971_country_birth_BIRM47.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BNCB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BNCB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BNCF69.asc"
+ :filename "5a_ascii_grid1971_country_birth_BNCF69.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BNCM69.asc"
+ :filename "5a_ascii_grid1971_country_birth_BNCM69.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BNIB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BNIB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BNIF46.asc"
+ :filename "5a_ascii_grid1971_country_birth_BNIF46.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BNIM45.asc"
+ :filename "5a_ascii_grid1971_country_birth_BNIM45.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BOCB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BOCB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BOCF50.asc"
+ :filename "5a_ascii_grid1971_country_birth_BOCF50.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BOCM49.asc"
+ :filename "5a_ascii_grid1971_country_birth_BOCM49.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BScotB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BScotB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BSctF42.asc"
+ :filename "5a_ascii_grid1971_country_birth_BSctF42.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BSctM41.asc"
+ :filename "5a_ascii_grid1971_country_birth_BSctM41.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BWalB.asc"
+ :filename "5a_ascii_grid1971_country_birth_BWalB.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BWalF44.asc"
+ :filename "5a_ascii_grid1971_country_birth_BWalF44.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_BWalM43.asc"
+ :filename "5a_ascii_grid1971_country_birth_BWalM43.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_451.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_451.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_452.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_452.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_453.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_453.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_454.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_454.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_455.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_455.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_456.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_456.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_457.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_457.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_458.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_458.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_459.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_459.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_460.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_460.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_461.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_461.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_462.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_462.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_463.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_463.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_464.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_464.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_465.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_465.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_466.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_466.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_467.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_467.asc"}
+{:path "./country-of-birth/1971/5a_ascii_grid1971_country_birth_X1s08_468.asc"
+ :filename "5a_ascii_grid1971_country_birth_X1s08_468.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BEngF25.asc"
+ :filename "5a_ascii_grid1981_country_birth_BEngF25.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BEngM24.asc"
+ :filename "5a_ascii_grid1981_country_birth_BEngM24.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BEngT23.asc"
+ :filename "5a_ascii_grid1981_country_birth_BEngT23.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BIRF37.asc"
+ :filename "5a_ascii_grid1981_country_birth_BIRF37.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BIRM36.asc"
+ :filename "5a_ascii_grid1981_country_birth_BIRM36.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BIRT35.asc"
+ :filename "5a_ascii_grid1981_country_birth_BIRT35.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BOCM39.asc"
+ :filename "5a_ascii_grid1981_country_birth_BOCM39.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BOCMF40.asc"
+ :filename "5a_ascii_grid1981_country_birth_BOCMF40.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BOCT38.asc"
+ :filename "5a_ascii_grid1981_country_birth_BOCT38.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BRestF34.asc"
+ :filename "5a_ascii_grid1981_country_birth_BRestF34.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BRestM33.asc"
+ :filename "5a_ascii_grid1981_country_birth_BRestM33.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BRestT32.asc"
+ :filename "5a_ascii_grid1981_country_birth_BRestT32.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BSctF28.asc"
+ :filename "5a_ascii_grid1981_country_birth_BSctF28.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BSctM27.asc"
+ :filename "5a_ascii_grid1981_country_birth_BSctM27.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BSctT26.asc"
+ :filename "5a_ascii_grid1981_country_birth_BSctT26.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BTF22.asc"
+ :filename "5a_ascii_grid1981_country_birth_BTF22.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BTM21.asc"
+ :filename "5a_ascii_grid1981_country_birth_BTM21.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BTT20.asc"
+ :filename "5a_ascii_grid1981_country_birth_BTT20.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BWalF31.asc"
+ :filename "5a_ascii_grid1981_country_birth_BWalF31.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BWalM30.asc"
+ :filename "5a_ascii_grid1981_country_birth_BWalM30.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_BWalT29.asc"
+ :filename "5a_ascii_grid1981_country_birth_BWalT29.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..10.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..10.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..11.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..11.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..12.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..12.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..13.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..13.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..14.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..14.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..15.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..15.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..16.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..16.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..17.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..17.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..18.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..18.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..19.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..19.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..1.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..1.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..20.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..20.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..21.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..21.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..22.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..22.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..23.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..23.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..24.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..24.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..25.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..25.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..26.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..26.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..27.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..27.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..28.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..28.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..29.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..29.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..2.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..2.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..30.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..30.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..31.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..31.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..32.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..32.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..33.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..33.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..34.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..34.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..35.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..35.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..36.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..36.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..37.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..37.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..38.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..38.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..3.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..3.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..4.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..4.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..5.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..5.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..6.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..6.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..7.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..7.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..8.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..8.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..9.asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..9.asc"}
+{:path "./country-of-birth/1981/5a_ascii_grid1981_country_birth_X.REF..asc"
+ :filename "5a_ascii_grid1981_country_birth_X.REF..asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BAll.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BAll.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BAllF02.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BAllF02.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BAllF02_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BAllF02_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BAllM01.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BAllM01.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BAll_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BAll_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BC.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BC.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BCF16.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BCF16.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BCF16_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BCF16_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BCM15.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BCM15.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BCM15_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BCM15_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BC_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BC_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BIR.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BIR.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BIRF14.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BIRF14.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BIRF14_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BIRF14_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BIRM13.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BIRM13.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BIRM13_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BIRM13_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BIR_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BIR_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BNCF18.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BNCF18.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BNCF18_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BNCF18_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BNCM17.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BNCM17.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BNCM17_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BNCM17_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BNCM.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BNCM.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BNCM_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BNCM_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUK.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUK.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKEF06.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKEF06.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKEF06_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKEF06_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKEM05.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKEM05.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKEM05_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKEM05_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKE_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKE_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKF04.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKF04.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKF04_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKF04_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKM03.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKM03.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKM03_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKM03_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKNF12.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKNF12.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKNF12_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKNF12_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKNI.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKNI.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKNI_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKNI_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKNM11.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKNM11.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKNM11_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKNM11_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUK_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUK_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKS.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKS.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKSF08.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKSF08.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKSF08_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKSF08_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKSM07.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKSM07.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKSM07_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKSM07_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKS_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKS_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKW.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKW.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKWF10.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKWF10.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKWF10_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKWF10_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKWM09.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKWM09.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKWM09_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKWM09_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_BUKW_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_BUKW_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070019.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070019.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070019_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070019_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070020.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070020.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070020_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070020_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070021.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070021.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070021_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070021_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070022.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070022.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070022_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070022_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070023.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070023.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070023_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070023_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070024.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070024.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070024_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070024_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070025.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070025.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070025_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070025_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070026.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070026.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070026_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070026_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070027.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070027.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070027_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070027_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070028.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070028.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070028_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070028_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070029.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070029.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070029_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070029_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070030.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070030.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070030_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070030_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070031.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070031.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070031_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070031_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070032.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070032.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070032_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070032_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070033.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070033.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070033_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070033_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070034_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070034_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070035.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070035.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070035_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070035_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070036.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070036.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070036_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070036_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070037.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070037.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070037_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070037_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070038.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070038.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070038_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070038_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070039_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070039_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070040.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070040.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070040_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070040_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070041.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070041.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070041_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070041_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070042.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070042.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070042_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070042_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070043.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070043.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070043_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070043_pc.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070044.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070044.asc"}
+{:path "./country-of-birth/1991/5a_ascii_grid1991_Country_of_Birth_s070044_pc.asc"
+ :filename "5a_ascii_grid1991_Country_of_Birth_s070044_pc.asc"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BAll.csv"
+ :filename "lookup_1991_Country_of_Birth_BAll.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BAll.csvt"
+ :filename "lookup_1991_Country_of_Birth_BAll.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BAllF02.csv"
+ :filename "lookup_1991_Country_of_Birth_BAllF02.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BAllF02.csvt"
+ :filename "lookup_1991_Country_of_Birth_BAllF02.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BAllM01.csv"
+ :filename "lookup_1991_Country_of_Birth_BAllM01.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BAllM01.csvt"
+ :filename "lookup_1991_Country_of_Birth_BAllM01.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BC.csv"
+ :filename "lookup_1991_Country_of_Birth_BC.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BC.csvt"
+ :filename "lookup_1991_Country_of_Birth_BC.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BCF16.csv"
+ :filename "lookup_1991_Country_of_Birth_BCF16.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BCF16.csvt"
+ :filename "lookup_1991_Country_of_Birth_BCF16.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BCM15.csv"
+ :filename "lookup_1991_Country_of_Birth_BCM15.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BCM15.csvt"
+ :filename "lookup_1991_Country_of_Birth_BCM15.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BIR.csv"
+ :filename "lookup_1991_Country_of_Birth_BIR.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BIR.csvt"
+ :filename "lookup_1991_Country_of_Birth_BIR.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BIRF14.csv"
+ :filename "lookup_1991_Country_of_Birth_BIRF14.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BIRF14.csvt"
+ :filename "lookup_1991_Country_of_Birth_BIRF14.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BIRM13.csv"
+ :filename "lookup_1991_Country_of_Birth_BIRM13.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BIRM13.csvt"
+ :filename "lookup_1991_Country_of_Birth_BIRM13.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BNCF18.csv"
+ :filename "lookup_1991_Country_of_Birth_BNCF18.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BNCF18.csvt"
+ :filename "lookup_1991_Country_of_Birth_BNCF18.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BNCM17.csv"
+ :filename "lookup_1991_Country_of_Birth_BNCM17.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BNCM17.csvt"
+ :filename "lookup_1991_Country_of_Birth_BNCM17.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BNCM.csv"
+ :filename "lookup_1991_Country_of_Birth_BNCM.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BNCM.csvt"
+ :filename "lookup_1991_Country_of_Birth_BNCM.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUK.csv"
+ :filename "lookup_1991_Country_of_Birth_BUK.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUK.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUK.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKE.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKE.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKE.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKE.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKEF06.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKEF06.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKEF06.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKEF06.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKEM05.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKEM05.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKEM05.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKEM05.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKF04.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKF04.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKF04.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKF04.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKM03.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKM03.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKM03.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKM03.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKNF12.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKNF12.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKNF12.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKNF12.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKNI.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKNI.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKNI.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKNI.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKNM11.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKNM11.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKNM11.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKNM11.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKS.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKS.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKS.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKS.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKSF08.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKSF08.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKSF08.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKSF08.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKSM07.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKSM07.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKSM07.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKSM07.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKW.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKW.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKW.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKW.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKWF10.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKWF10.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKWF10.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKWF10.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKWM09.csv"
+ :filename "lookup_1991_Country_of_Birth_BUKWM09.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_BUKWM09.csvt"
+ :filename "lookup_1991_Country_of_Birth_BUKWM09.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070019.csv"
+ :filename "lookup_1991_Country_of_Birth_s070019.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070019.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070019.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070020.csv"
+ :filename "lookup_1991_Country_of_Birth_s070020.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070020.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070020.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070021.csv"
+ :filename "lookup_1991_Country_of_Birth_s070021.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070021.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070021.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070022.csv"
+ :filename "lookup_1991_Country_of_Birth_s070022.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070022.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070022.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070023.csv"
+ :filename "lookup_1991_Country_of_Birth_s070023.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070023.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070023.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070024.csv"
+ :filename "lookup_1991_Country_of_Birth_s070024.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070024.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070024.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070025.csv"
+ :filename "lookup_1991_Country_of_Birth_s070025.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070025.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070025.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070026.csv"
+ :filename "lookup_1991_Country_of_Birth_s070026.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070026.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070026.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070027.csv"
+ :filename "lookup_1991_Country_of_Birth_s070027.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070027.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070027.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070028.csv"
+ :filename "lookup_1991_Country_of_Birth_s070028.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070028.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070028.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070029.csv"
+ :filename "lookup_1991_Country_of_Birth_s070029.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070029.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070029.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070030.csv"
+ :filename "lookup_1991_Country_of_Birth_s070030.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070030.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070030.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070031.csv"
+ :filename "lookup_1991_Country_of_Birth_s070031.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070031.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070031.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070032.csv"
+ :filename "lookup_1991_Country_of_Birth_s070032.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070032.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070032.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070035.csv"
+ :filename "lookup_1991_Country_of_Birth_s070035.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070035.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070035.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070036.csv"
+ :filename "lookup_1991_Country_of_Birth_s070036.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070036.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070036.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070037.csv"
+ :filename "lookup_1991_Country_of_Birth_s070037.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070037.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070037.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070038.csv"
+ :filename "lookup_1991_Country_of_Birth_s070038.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070038.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070038.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070039.csv"
+ :filename "lookup_1991_Country_of_Birth_s070039.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070039.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070039.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070040.csv"
+ :filename "lookup_1991_Country_of_Birth_s070040.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070040.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070040.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070041.csv"
+ :filename "lookup_1991_Country_of_Birth_s070041.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070041.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070041.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070042.csv"
+ :filename "lookup_1991_Country_of_Birth_s070042.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070042.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070042.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070043.csv"
+ :filename "lookup_1991_Country_of_Birth_s070043.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070043.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070043.csvt"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070044.csv"
+ :filename "lookup_1991_Country_of_Birth_s070044.csv"}
+{:path "./country-of-birth/1991/lookup_1991_Country_of_Birth_s070044.csvt"
+ :filename "lookup_1991_Country_of_Birth_s070044.csvt"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BAll.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BAll.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BElsew.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BElsew.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BElsew_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BElsew_pc.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BEngland.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BEngland.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BEngland_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BEngland_pc.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BNrIred.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BNrIred.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BNrIred_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BNrIred_pc.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BOtherEU.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BOtherEU.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BOtherEU_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BOtherEU_pc.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BRpIred.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BRpIred.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BRpIred_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BRpIred_pc.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BScot.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BScot.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BScot_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BScot_pc.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BWales.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BWales.asc"}
+{:path "./country-of-birth/2001/5a_ascii_grid2001_Country_of_Birth_BWales_pc.asc"
+ :filename "5a_ascii_grid2001_Country_of_Birth_BWales_pc.asc"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BAll.csv"
+ :filename "lookup_2001_Country_of_Birth_BAll.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BAll.csvt"
+ :filename "lookup_2001_Country_of_Birth_BAll.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BElsew.csv"
+ :filename "lookup_2001_Country_of_Birth_BElsew.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BElsew.csvt"
+ :filename "lookup_2001_Country_of_Birth_BElsew.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BEngland.csv"
+ :filename "lookup_2001_Country_of_Birth_BEngland.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BEngland.csvt"
+ :filename "lookup_2001_Country_of_Birth_BEngland.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BNrIred.csv"
+ :filename "lookup_2001_Country_of_Birth_BNrIred.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BNrIred.csvt"
+ :filename "lookup_2001_Country_of_Birth_BNrIred.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BOtherEU.csv"
+ :filename "lookup_2001_Country_of_Birth_BOtherEU.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BOtherEU.csvt"
+ :filename "lookup_2001_Country_of_Birth_BOtherEU.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BRpIred.csv"
+ :filename "lookup_2001_Country_of_Birth_BRpIred.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BRpIred.csvt"
+ :filename "lookup_2001_Country_of_Birth_BRpIred.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BScot.csv"
+ :filename "lookup_2001_Country_of_Birth_BScot.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BScot.csvt"
+ :filename "lookup_2001_Country_of_Birth_BScot.csvt"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BWales.csv"
+ :filename "lookup_2001_Country_of_Birth_BWales.csv"}
+{:path "./country-of-birth/2001/lookup_2001_Country_of_Birth_BWales.csvt"
+ :filename "lookup_2001_Country_of_Birth_BWales.csvt"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Africa.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Africa.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_AfricaOt.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_AfricaOt.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_All.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_All.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_AmerCab.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_AmerCab.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Antarct.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Antarct.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_AntOcean.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_AntOcean.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Australs.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Australs.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Banglads.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Banglads.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Caribbea.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Caribbea.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Casia.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Casia.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_CentAmer.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_CentAmer.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Channel.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Channel.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_China.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_China.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_CWAfrica.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_CWAfrica.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_EastAsia.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_EastAsia.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_EU01.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_EU01.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_EU11.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_EU11.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Europe.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Europe.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_France.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_France.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_GB.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_GB.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Germany.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Germany.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Ghana.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Ghana.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Guernsey.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Guernsey.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_HongKong.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_HongKong.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_India.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_India.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Iran.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Iran.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Ireland.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Ireland.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_IsleMan.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_IsleMan.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Italy.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Italy.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Jamaica.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Jamaica.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Jersey.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Jersey.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Kenya.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Kenya.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Lithuan.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Lithuan.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_MidEast.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_MidEast.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_MidEsAs.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_MidEsAs.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Nigeria.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Nigeria.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_NorthIre.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_NorthIre.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_NtAfrica.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_NtAfrica.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_NthAmer.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_NthAmer.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OtCWAfr.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OtCWAfr.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OtEastAs.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OtEastAs.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthCarib.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthCarib.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Other.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Other.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthEU01.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthEU01.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthEU11.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthEU11.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthEU.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthEU.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthEurop.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthEurop.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthNthAm.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthNthAm.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OthOcea.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OthOcea.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OtMidEst.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OtMidEst.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OtSEAfra.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OtSEAfra.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OtSEAsia.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OtSEAsia.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_OtSthAs.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_OtSthAs.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Pakistan.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Pakistan.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Phillipp.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Phillipp.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Poland.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Poland.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Portugal.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Portugal.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_RestEuro.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_RestEuro.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Romania.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Romania.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Scotland.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Scotland.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_SEAfrica.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_SEAfrica.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_SEAsia.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_SEAsia.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Somalia.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Somalia.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_SouthAfr.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_SouthAfr.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_SouthAm.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_SouthAm.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Spain.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Spain.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_SriLanka.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_SriLanka.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_SthAsia.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_SthAsia.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Turkey.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Turkey.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_UK.1.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_UK.1.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_UK.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_UK.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_UKEng.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_UKEng.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_US.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_US.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Wales.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Wales.asc"}
+{:path "./country-of-birth/2011/5a_ascii_grid2011_Country_of_Birth_Zimbab.asc"
+ :filename "5a_ascii_grid2011_Country_of_Birth_Zimbab.asc"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Africa.csv"
+ :filename "lookup_2011_Country_of_Birth_Africa.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Africa.csvt"
+ :filename "lookup_2011_Country_of_Birth_Africa.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_AfricaOt.csv"
+ :filename "lookup_2011_Country_of_Birth_AfricaOt.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_AfricaOt.csvt"
+ :filename "lookup_2011_Country_of_Birth_AfricaOt.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_All.csv"
+ :filename "lookup_2011_Country_of_Birth_All.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_All.csvt"
+ :filename "lookup_2011_Country_of_Birth_All.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_AmerCab.csv"
+ :filename "lookup_2011_Country_of_Birth_AmerCab.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_AmerCab.csvt"
+ :filename "lookup_2011_Country_of_Birth_AmerCab.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Antarct.csv"
+ :filename "lookup_2011_Country_of_Birth_Antarct.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Antarct.csvt"
+ :filename "lookup_2011_Country_of_Birth_Antarct.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_AntOcean.csv"
+ :filename "lookup_2011_Country_of_Birth_AntOcean.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_AntOcean.csvt"
+ :filename "lookup_2011_Country_of_Birth_AntOcean.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Australs.csv"
+ :filename "lookup_2011_Country_of_Birth_Australs.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Australs.csvt"
+ :filename "lookup_2011_Country_of_Birth_Australs.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Banglads.csv"
+ :filename "lookup_2011_Country_of_Birth_Banglads.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Banglads.csvt"
+ :filename "lookup_2011_Country_of_Birth_Banglads.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Caribbea.csv"
+ :filename "lookup_2011_Country_of_Birth_Caribbea.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Caribbea.csvt"
+ :filename "lookup_2011_Country_of_Birth_Caribbea.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Casia.csv"
+ :filename "lookup_2011_Country_of_Birth_Casia.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Casia.csvt"
+ :filename "lookup_2011_Country_of_Birth_Casia.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_CentAmer.csv"
+ :filename "lookup_2011_Country_of_Birth_CentAmer.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_CentAmer.csvt"
+ :filename "lookup_2011_Country_of_Birth_CentAmer.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Channel.csv"
+ :filename "lookup_2011_Country_of_Birth_Channel.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Channel.csvt"
+ :filename "lookup_2011_Country_of_Birth_Channel.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_China.csv"
+ :filename "lookup_2011_Country_of_Birth_China.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_China.csvt"
+ :filename "lookup_2011_Country_of_Birth_China.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_CWAfrica.csv"
+ :filename "lookup_2011_Country_of_Birth_CWAfrica.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_CWAfrica.csvt"
+ :filename "lookup_2011_Country_of_Birth_CWAfrica.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_EastAsia.csv"
+ :filename "lookup_2011_Country_of_Birth_EastAsia.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_EastAsia.csvt"
+ :filename "lookup_2011_Country_of_Birth_EastAsia.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_EU01.csv"
+ :filename "lookup_2011_Country_of_Birth_EU01.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_EU01.csvt"
+ :filename "lookup_2011_Country_of_Birth_EU01.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_EU11.csv"
+ :filename "lookup_2011_Country_of_Birth_EU11.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_EU11.csvt"
+ :filename "lookup_2011_Country_of_Birth_EU11.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Europe.csv"
+ :filename "lookup_2011_Country_of_Birth_Europe.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Europe.csvt"
+ :filename "lookup_2011_Country_of_Birth_Europe.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_France.csv"
+ :filename "lookup_2011_Country_of_Birth_France.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_France.csvt"
+ :filename "lookup_2011_Country_of_Birth_France.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_GB.csv"
+ :filename "lookup_2011_Country_of_Birth_GB.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_GB.csvt"
+ :filename "lookup_2011_Country_of_Birth_GB.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Germany.csv"
+ :filename "lookup_2011_Country_of_Birth_Germany.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Germany.csvt"
+ :filename "lookup_2011_Country_of_Birth_Germany.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Ghana.csv"
+ :filename "lookup_2011_Country_of_Birth_Ghana.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Ghana.csvt"
+ :filename "lookup_2011_Country_of_Birth_Ghana.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Guernsey.csv"
+ :filename "lookup_2011_Country_of_Birth_Guernsey.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Guernsey.csvt"
+ :filename "lookup_2011_Country_of_Birth_Guernsey.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_HongKong.csv"
+ :filename "lookup_2011_Country_of_Birth_HongKong.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_HongKong.csvt"
+ :filename "lookup_2011_Country_of_Birth_HongKong.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_India.csv"
+ :filename "lookup_2011_Country_of_Birth_India.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_India.csvt"
+ :filename "lookup_2011_Country_of_Birth_India.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Iran.csv"
+ :filename "lookup_2011_Country_of_Birth_Iran.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Iran.csvt"
+ :filename "lookup_2011_Country_of_Birth_Iran.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Ireland.csv"
+ :filename "lookup_2011_Country_of_Birth_Ireland.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Ireland.csvt"
+ :filename "lookup_2011_Country_of_Birth_Ireland.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_IsleMan.csv"
+ :filename "lookup_2011_Country_of_Birth_IsleMan.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_IsleMan.csvt"
+ :filename "lookup_2011_Country_of_Birth_IsleMan.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Italy.csv"
+ :filename "lookup_2011_Country_of_Birth_Italy.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Italy.csvt"
+ :filename "lookup_2011_Country_of_Birth_Italy.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Jamaica.csv"
+ :filename "lookup_2011_Country_of_Birth_Jamaica.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Jamaica.csvt"
+ :filename "lookup_2011_Country_of_Birth_Jamaica.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Jersey.csv"
+ :filename "lookup_2011_Country_of_Birth_Jersey.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Jersey.csvt"
+ :filename "lookup_2011_Country_of_Birth_Jersey.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Kenya.csv"
+ :filename "lookup_2011_Country_of_Birth_Kenya.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Kenya.csvt"
+ :filename "lookup_2011_Country_of_Birth_Kenya.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Lithuan.csv"
+ :filename "lookup_2011_Country_of_Birth_Lithuan.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Lithuan.csvt"
+ :filename "lookup_2011_Country_of_Birth_Lithuan.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_MidEast.csv"
+ :filename "lookup_2011_Country_of_Birth_MidEast.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_MidEast.csvt"
+ :filename "lookup_2011_Country_of_Birth_MidEast.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_MidEsAs.csv"
+ :filename "lookup_2011_Country_of_Birth_MidEsAs.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_MidEsAs.csvt"
+ :filename "lookup_2011_Country_of_Birth_MidEsAs.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Nigeria.csv"
+ :filename "lookup_2011_Country_of_Birth_Nigeria.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Nigeria.csvt"
+ :filename "lookup_2011_Country_of_Birth_Nigeria.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_NorthIre.csv"
+ :filename "lookup_2011_Country_of_Birth_NorthIre.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_NorthIre.csvt"
+ :filename "lookup_2011_Country_of_Birth_NorthIre.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_NtAfrica.csv"
+ :filename "lookup_2011_Country_of_Birth_NtAfrica.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_NtAfrica.csvt"
+ :filename "lookup_2011_Country_of_Birth_NtAfrica.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_NthAmer.csv"
+ :filename "lookup_2011_Country_of_Birth_NthAmer.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_NthAmer.csvt"
+ :filename "lookup_2011_Country_of_Birth_NthAmer.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtCWAfr.csv"
+ :filename "lookup_2011_Country_of_Birth_OtCWAfr.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtCWAfr.csvt"
+ :filename "lookup_2011_Country_of_Birth_OtCWAfr.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtEastAs.csv"
+ :filename "lookup_2011_Country_of_Birth_OtEastAs.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtEastAs.csvt"
+ :filename "lookup_2011_Country_of_Birth_OtEastAs.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthCarib.csv"
+ :filename "lookup_2011_Country_of_Birth_OthCarib.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthCarib.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthCarib.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Other.csv"
+ :filename "lookup_2011_Country_of_Birth_Other.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Other.csvt"
+ :filename "lookup_2011_Country_of_Birth_Other.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEU01.csv"
+ :filename "lookup_2011_Country_of_Birth_OthEU01.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEU01.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthEU01.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEU11.csv"
+ :filename "lookup_2011_Country_of_Birth_OthEU11.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEU11.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthEU11.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEU.csv"
+ :filename "lookup_2011_Country_of_Birth_OthEU.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEU.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthEU.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEurop.csv"
+ :filename "lookup_2011_Country_of_Birth_OthEurop.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthEurop.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthEurop.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthNthAm.csv"
+ :filename "lookup_2011_Country_of_Birth_OthNthAm.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthNthAm.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthNthAm.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthOcea.csv"
+ :filename "lookup_2011_Country_of_Birth_OthOcea.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OthOcea.csvt"
+ :filename "lookup_2011_Country_of_Birth_OthOcea.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtMidEst.csv"
+ :filename "lookup_2011_Country_of_Birth_OtMidEst.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtMidEst.csvt"
+ :filename "lookup_2011_Country_of_Birth_OtMidEst.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtSEAfra.csv"
+ :filename "lookup_2011_Country_of_Birth_OtSEAfra.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtSEAfra.csvt"
+ :filename "lookup_2011_Country_of_Birth_OtSEAfra.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtSEAsia.csv"
+ :filename "lookup_2011_Country_of_Birth_OtSEAsia.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtSEAsia.csvt"
+ :filename "lookup_2011_Country_of_Birth_OtSEAsia.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtSthAs.csv"
+ :filename "lookup_2011_Country_of_Birth_OtSthAs.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_OtSthAs.csvt"
+ :filename "lookup_2011_Country_of_Birth_OtSthAs.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Pakistan.csv"
+ :filename "lookup_2011_Country_of_Birth_Pakistan.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Pakistan.csvt"
+ :filename "lookup_2011_Country_of_Birth_Pakistan.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Phillipp.csv"
+ :filename "lookup_2011_Country_of_Birth_Phillipp.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Phillipp.csvt"
+ :filename "lookup_2011_Country_of_Birth_Phillipp.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Poland.csv"
+ :filename "lookup_2011_Country_of_Birth_Poland.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Poland.csvt"
+ :filename "lookup_2011_Country_of_Birth_Poland.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Portugal.csv"
+ :filename "lookup_2011_Country_of_Birth_Portugal.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Portugal.csvt"
+ :filename "lookup_2011_Country_of_Birth_Portugal.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_RestEuro.csv"
+ :filename "lookup_2011_Country_of_Birth_RestEuro.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_RestEuro.csvt"
+ :filename "lookup_2011_Country_of_Birth_RestEuro.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Romania.csv"
+ :filename "lookup_2011_Country_of_Birth_Romania.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Romania.csvt"
+ :filename "lookup_2011_Country_of_Birth_Romania.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Scotland.csv"
+ :filename "lookup_2011_Country_of_Birth_Scotland.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Scotland.csvt"
+ :filename "lookup_2011_Country_of_Birth_Scotland.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SEAfrica.csv"
+ :filename "lookup_2011_Country_of_Birth_SEAfrica.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SEAfrica.csvt"
+ :filename "lookup_2011_Country_of_Birth_SEAfrica.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SEAsia.csv"
+ :filename "lookup_2011_Country_of_Birth_SEAsia.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SEAsia.csvt"
+ :filename "lookup_2011_Country_of_Birth_SEAsia.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Somalia.csv"
+ :filename "lookup_2011_Country_of_Birth_Somalia.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Somalia.csvt"
+ :filename "lookup_2011_Country_of_Birth_Somalia.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SouthAfr.csv"
+ :filename "lookup_2011_Country_of_Birth_SouthAfr.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SouthAfr.csvt"
+ :filename "lookup_2011_Country_of_Birth_SouthAfr.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SouthAm.csv"
+ :filename "lookup_2011_Country_of_Birth_SouthAm.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SouthAm.csvt"
+ :filename "lookup_2011_Country_of_Birth_SouthAm.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Spain.csv"
+ :filename "lookup_2011_Country_of_Birth_Spain.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Spain.csvt"
+ :filename "lookup_2011_Country_of_Birth_Spain.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SriLanka.csv"
+ :filename "lookup_2011_Country_of_Birth_SriLanka.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SriLanka.csvt"
+ :filename "lookup_2011_Country_of_Birth_SriLanka.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SthAsia.csv"
+ :filename "lookup_2011_Country_of_Birth_SthAsia.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_SthAsia.csvt"
+ :filename "lookup_2011_Country_of_Birth_SthAsia.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Turkey.csv"
+ :filename "lookup_2011_Country_of_Birth_Turkey.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Turkey.csvt"
+ :filename "lookup_2011_Country_of_Birth_Turkey.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_UK.1.csv"
+ :filename "lookup_2011_Country_of_Birth_UK.1.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_UK.1.csvt"
+ :filename "lookup_2011_Country_of_Birth_UK.1.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_UK.csv"
+ :filename "lookup_2011_Country_of_Birth_UK.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_UK.csvt"
+ :filename "lookup_2011_Country_of_Birth_UK.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_UKEng.csv"
+ :filename "lookup_2011_Country_of_Birth_UKEng.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_UKEng.csvt"
+ :filename "lookup_2011_Country_of_Birth_UKEng.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_US.csv"
+ :filename "lookup_2011_Country_of_Birth_US.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_US.csvt"
+ :filename "lookup_2011_Country_of_Birth_US.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Wales.csv"
+ :filename "lookup_2011_Country_of_Birth_Wales.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Wales.csvt"
+ :filename "lookup_2011_Country_of_Birth_Wales.csvt"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Zimbab.csv"
+ :filename "lookup_2011_Country_of_Birth_Zimbab.csv"}
+{:path "./country-of-birth/2011/lookup_2011_Country_of_Birth_Zimbab.csvt"
+ :filename "lookup_2011_Country_of_Birth_Zimbab.csvt"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EBangla8.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EBangla8.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EBIrel12.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EBIrel12.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EBlkAfr4.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EBlkAfr4.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EBlkCab3.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EBlkCab3.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EBlkOth5.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EBlkOth5.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EChines9.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EChines9.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EIndian6.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EIndian6.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EOtAsn10.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EOtAsn10.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EOther11.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EOther11.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EPakist7.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EPakist7.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_ETotal1.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_ETotal1.asc"}
+{:path "./ethnicity/1991/5a_ascii_grid1991_Ethnicity_EWhite2.asc"
+ :filename "5a_ascii_grid1991_Ethnicity_EWhite2.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EAsBan11.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EAsBan11.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EAsIndn9.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EAsIndn9.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EAsOth12.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EAsOth12.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EAsPak10.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EAsPak10.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EBkAfr14.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EBkAfr14.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EBkCab13.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EBkCab13.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EBlOth15.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EBlOth15.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EChine16.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EChine16.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EOther17.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EOther17.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_ETotal1.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_ETotal1.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EWhAsin7.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EWhAsin7.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EWhBlAf6.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EWhBlAf6.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EWhBlCb5.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EWhBlCb5.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EWhtBrt2.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EWhtBrt2.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EWhtIrs3.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EWhtIrs3.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_EWhtOth4.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_EWhtOth4.asc"}
+{:path "./ethnicity/2001/5a_ascii_grid2001_Ethnicity_MixOthr8.asc"
+ :filename "5a_ascii_grid2001_Ethnicity_MixOthr8.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EAsBan12.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EAsBan12.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EAsChn13.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EAsChn13.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EAsInd10.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EAsInd10.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EAsOth14.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EAsOth14.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EAsPak11.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EAsPak11.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EBkAfr15.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EBkAfr15.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EBkCab16.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EBkCab16.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EBkOth17.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EBkOth17.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EOtArb18.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EOtArb18.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EOther19.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EOther19.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_ETotal1.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_ETotal1.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhAsin8.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhAsin8.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhBlAf7.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhBlAf7.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhBlCb6.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhBlCb6.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhite2.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhite2.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhtIrs3.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhtIrs3.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhtOth5.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhtOth5.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_EWhTrav4.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_EWhTrav4.asc"}
+{:path "./ethnicity/2011/5a_ascii_grid2011_Ethnicity_MixOthr9.asc"
+ :filename "5a_ascii_grid2011_Ethnicity_MixOthr9.asc"}
+{:path "./health/1991/5a_ascii_grid1991_LLTI_LLTI1.asc"
+ :filename "5a_ascii_grid1991_LLTI_LLTI1.asc"}
+{:path "./health/2001/5a_ascii_grid2001_Health_HAllPpl1.asc"
+ :filename "5a_ascii_grid2001_Health_HAllPpl1.asc"}
+{:path "./health/2001/5a_ascii_grid2001_Health_HFGood5.asc"
+ :filename "5a_ascii_grid2001_Health_HFGood5.asc"}
+{:path "./health/2001/5a_ascii_grid2001_Health_HGood4.asc"
+ :filename "5a_ascii_grid2001_Health_HGood4.asc"}
+{:path "./health/2001/5a_ascii_grid2001_Health_HNotGd6.asc"
+ :filename "5a_ascii_grid2001_Health_HNotGd6.asc"}
+{:path "./health/2001/5a_ascii_grid2001_Health_HPLLTI2.asc"
+ :filename "5a_ascii_grid2001_Health_HPLLTI2.asc"}
+{:path "./health/2001/5a_ascii_grid2001_Health_HPWLLTI3.asc"
+ :filename "5a_ascii_grid2001_Health_HPWLLTI3.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HAllPPpl1.asc"
+ :filename "5a_ascii_grid2011_Health_HAllPPpl1.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HBad11.asc"
+ :filename "5a_ascii_grid2011_Health_HBad11.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HFair10.asc"
+ :filename "5a_ascii_grid2011_Health_HFair10.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HGood9.asc"
+ :filename "5a_ascii_grid2011_Health_HGood9.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HLetNot4.asc"
+ :filename "5a_ascii_grid2011_Health_HLetNot4.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HLtdLot2.asc"
+ :filename "5a_ascii_grid2011_Health_HLtdLot2.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HLtdLtl3.asc"
+ :filename "5a_ascii_grid2011_Health_HLtdLtl3.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HLtLotW5.asc"
+ :filename "5a_ascii_grid2011_Health_HLtLotW5.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HLtLtlW6.asc"
+ :filename "5a_ascii_grid2011_Health_HLtLtlW6.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HLtNotW7.asc"
+ :filename "5a_ascii_grid2011_Health_HLtNotW7.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HVBad12.asc"
+ :filename "5a_ascii_grid2011_Health_HVBad12.asc"}
+{:path "./health/2011/5a_ascii_grid2011_Health_HVGood8.asc"
+ :filename "5a_ascii_grid2011_Health_HVGood8.asc"}
+{:path "./tenure/1971/5a_ascii_grid1971_Tenure_TOwnOc3.asc"
+ :filename "5a_ascii_grid1971_Tenure_TOwnOc3.asc"}
+{:path "./tenure/1971/5a_ascii_grid1971_Tenure_TRentCn4.asc"
+ :filename "5a_ascii_grid1971_Tenure_TRentCn4.asc"}
+{:path "./tenure/1971/5a_ascii_grid1971_Tenure_TRentFr6.asc"
+ :filename "5a_ascii_grid1971_Tenure_TRentFr6.asc"}
+{:path "./tenure/1971/5a_ascii_grid1971_Tenure_TRentOt7.asc"
+ :filename "5a_ascii_grid1971_Tenure_TRentOt7.asc"}
+{:path "./tenure/1971/5a_ascii_grid1971_Tenure_TRentUf5.asc"
+ :filename "5a_ascii_grid1971_Tenure_TRentUf5.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_T031.asc"
+ :filename "5a_ascii_grid1981_Tenure_T031.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TAllHs29.asc"
+ :filename "5a_ascii_grid1981_Tenure_TAllHs29.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TCoun83.asc"
+ :filename "5a_ascii_grid1981_Tenure_TCoun83.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_THouAs99.asc"
+ :filename "5a_ascii_grid1981_Tenure_THouAs99.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_THouBs15.asc"
+ :filename "5a_ascii_grid1981_Tenure_THouBs15.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TNPerm7.asc"
+ :filename "5a_ascii_grid1981_Tenure_TNPerm7.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TOwnOc67.asc"
+ :filename "5a_ascii_grid1981_Tenure_TOwnOc67.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TPerm51.asc"
+ :filename "5a_ascii_grid1981_Tenure_TPerm51.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TrentFu7.asc"
+ :filename "5a_ascii_grid1981_Tenure_TrentFu7.asc"}
+{:path "./tenure/1981/5a_ascii_grid1981_Tenure_TRentUf3.asc"
+ :filename "5a_ascii_grid1981_Tenure_TRentUf3.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TNoCar10.asc"
+ :filename "5a_ascii_grid1991_Tenure_TNoCar10.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TNPerm9.asc"
+ :filename "5a_ascii_grid1991_Tenure_TNPerm9.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TOwnOc2.asc"
+ :filename "5a_ascii_grid1991_Tenure_TOwnOc2.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TOwnOc3.asc"
+ :filename "5a_ascii_grid1991_Tenure_TOwnOc3.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TPerm1.asc"
+ :filename "5a_ascii_grid1991_Tenure_TPerm1.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TRentFu4.asc"
+ :filename "5a_ascii_grid1991_Tenure_TRentFu4.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TRentHA7.asc"
+ :filename "5a_ascii_grid1991_Tenure_TRentHA7.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TRentJb6.asc"
+ :filename "5a_ascii_grid1991_Tenure_TRentJb6.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TRentLA8.asc"
+ :filename "5a_ascii_grid1991_Tenure_TRentLA8.asc"}
+{:path "./tenure/1991/5a_ascii_grid1991_Tenure_TRentUF5.asc"
+ :filename "5a_ascii_grid1991_Tenure_TRentUF5.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TAllHs1.asc"
+ :filename "5a_ascii_grid2001_Tenure_TAllHs1.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TOnMot3.asc"
+ :filename "5a_ascii_grid2001_Tenure_TOnMot3.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TOnOwn2.asc"
+ :filename "5a_ascii_grid2001_Tenure_TOnOwn2.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TOnShd4.asc"
+ :filename "5a_ascii_grid2001_Tenure_TOnShd4.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TRentHA6.asc"
+ :filename "5a_ascii_grid2001_Tenure_TRentHA6.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TRentLA5.asc"
+ :filename "5a_ascii_grid2001_Tenure_TRentLA5.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TRentOt8.asc"
+ :filename "5a_ascii_grid2001_Tenure_TRentOt8.asc"}
+{:path "./tenure/2001/5a_ascii_grid2001_Tenure_TRentPr7.asc"
+ :filename "5a_ascii_grid2001_Tenure_TRentPr7.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TAllHs1.asc"
+ :filename "5a_ascii_grid2011_Tenure_TAllHs1.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TOnMot3.asc"
+ :filename "5a_ascii_grid2011_Tenure_TOnMot3.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TOnOwn2.asc"
+ :filename "5a_ascii_grid2011_Tenure_TOnOwn2.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TOnShd4.asc"
+ :filename "5a_ascii_grid2011_Tenure_TOnShd4.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TRentFr9.asc"
+ :filename "5a_ascii_grid2011_Tenure_TRentFr9.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TRentHA6.asc"
+ :filename "5a_ascii_grid2011_Tenure_TRentHA6.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TRentLA5.asc"
+ :filename "5a_ascii_grid2011_Tenure_TRentLA5.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TRentOt6.asc"
+ :filename "5a_ascii_grid2011_Tenure_TRentOt6.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TRentOt8.asc"
+ :filename "5a_ascii_grid2011_Tenure_TRentOt8.asc"}
+{:path "./tenure/2011/5a_ascii_grid2011_Tenure_TRentPr7.asc"
+ :filename "5a_ascii_grid2011_Tenure_TRentPr7.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBNPHo.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBNPHo.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBNPHoR.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBNPHoR.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBPHs.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBPHs.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBPHsR.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBPHsR.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBPres.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBPres.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBVisGB.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBVisGB.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBVisRGB.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBVisRGB.asc"}
+{:path "./total-population/1971/5a_ascii_grid1971_Total_Population_PBVisRLA.asc"
+ :filename "5a_ascii_grid1971_Total_Population_PBVisRLA.asc"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBNPHo.csv"
+ :filename "lookup_1971_Total_Population_PBNPHo.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBNPHo.csvt"
+ :filename "lookup_1971_Total_Population_PBNPHo.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBNPHoR.csv"
+ :filename "lookup_1971_Total_Population_PBNPHoR.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBNPHoR.csvt"
+ :filename "lookup_1971_Total_Population_PBNPHoR.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBPHs.csv"
+ :filename "lookup_1971_Total_Population_PBPHs.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBPHs.csvt"
+ :filename "lookup_1971_Total_Population_PBPHs.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBPHsR.csv"
+ :filename "lookup_1971_Total_Population_PBPHsR.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBPHsR.csvt"
+ :filename "lookup_1971_Total_Population_PBPHsR.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBPres.csv"
+ :filename "lookup_1971_Total_Population_PBPres.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBPres.csvt"
+ :filename "lookup_1971_Total_Population_PBPres.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBVisGB.csv"
+ :filename "lookup_1971_Total_Population_PBVisGB.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBVisGB.csvt"
+ :filename "lookup_1971_Total_Population_PBVisGB.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBVisRGB.csv"
+ :filename "lookup_1971_Total_Population_PBVisRGB.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBVisRGB.csvt"
+ :filename "lookup_1971_Total_Population_PBVisRGB.csvt"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBVisRLA.csv"
+ :filename "lookup_1971_Total_Population_PBVisRLA.csv"}
+{:path "./total-population/1971/lookup_1971_Total_Population_PBVisRLA.csvt"
+ :filename "lookup_1971_Total_Population_PBVisRLA.csvt"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_PB71Bs.asc"
+ :filename "5a_ascii_grid1981_Total_Population_PB71Bs.asc"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_PBPres.asc"
+ :filename "5a_ascii_grid1981_Total_Population_PBPres.asc"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_PBPtAb.asc"
+ :filename "5a_ascii_grid1981_Total_Population_PBPtAb.asc"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_PBVis.asc"
+ :filename "5a_ascii_grid1981_Total_Population_PBVis.asc"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_PBVisNR.asc"
+ :filename "5a_ascii_grid1981_Total_Population_PBVisNR.asc"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_PBVisRUK.asc"
+ :filename "5a_ascii_grid1981_Total_Population_PBVisRUK.asc"}
+{:path "./total-population/1981/5a_ascii_grid1981_Total_Population_TP81Bs.asc"
+ :filename "5a_ascii_grid1981_Total_Population_TP81Bs.asc"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PB71Bs.csv"
+ :filename "lookup_1981_Total_Population_PB71Bs.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PB71Bs.csvt"
+ :filename "lookup_1981_Total_Population_PB71Bs.csvt"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBPres.csv"
+ :filename "lookup_1981_Total_Population_PBPres.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBPres.csvt"
+ :filename "lookup_1981_Total_Population_PBPres.csvt"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBPtAb.csv"
+ :filename "lookup_1981_Total_Population_PBPtAb.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBPtAb.csvt"
+ :filename "lookup_1981_Total_Population_PBPtAb.csvt"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBVis.csv"
+ :filename "lookup_1981_Total_Population_PBVis.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBVis.csvt"
+ :filename "lookup_1981_Total_Population_PBVis.csvt"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBVisNR.csv"
+ :filename "lookup_1981_Total_Population_PBVisNR.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBVisNR.csvt"
+ :filename "lookup_1981_Total_Population_PBVisNR.csvt"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBVisRUK.csv"
+ :filename "lookup_1981_Total_Population_PBVisRUK.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_PBVisRUK.csvt"
+ :filename "lookup_1981_Total_Population_PBVisRUK.csvt"}
+{:path "./total-population/1981/lookup_1981_Total_Population_TP81Bs.csv"
+ :filename "lookup_1981_Total_Population_TP81Bs.csv"}
+{:path "./total-population/1981/lookup_1981_Total_Population_TP81Bs.csvt"
+ :filename "lookup_1981_Total_Population_TP81Bs.csvt"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TP71Bs.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TP71Bs.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TP81Bs.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TP81Bs.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TP91Bs.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TP91Bs.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPAbEn.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPAbEn.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPAbIm.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPAbIm.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPPres.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPPres.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPPtAb.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPPtAb.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPVis.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPVis.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPVisNR.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPVisNR.asc"}
+{:path "./total-population/1991/5a_ascii_grid1991_Total_Population_TPVisRUK.asc"
+ :filename "5a_ascii_grid1991_Total_Population_TPVisRUK.asc"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TP71Bs.csv"
+ :filename "lookup_1991_Total_Population_TP71Bs.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TP71Bs.csvt"
+ :filename "lookup_1991_Total_Population_TP71Bs.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TP81Bs.csv"
+ :filename "lookup_1991_Total_Population_TP81Bs.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TP81Bs.csvt"
+ :filename "lookup_1991_Total_Population_TP81Bs.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TP91Bs.csv"
+ :filename "lookup_1991_Total_Population_TP91Bs.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TP91Bs.csvt"
+ :filename "lookup_1991_Total_Population_TP91Bs.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPAbEn.csv"
+ :filename "lookup_1991_Total_Population_TPAbEn.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPAbEn.csvt"
+ :filename "lookup_1991_Total_Population_TPAbEn.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPAbIm.csv"
+ :filename "lookup_1991_Total_Population_TPAbIm.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPAbIm.csvt"
+ :filename "lookup_1991_Total_Population_TPAbIm.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPPres.csv"
+ :filename "lookup_1991_Total_Population_TPPres.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPPres.csvt"
+ :filename "lookup_1991_Total_Population_TPPres.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPPtAb.csv"
+ :filename "lookup_1991_Total_Population_TPPtAb.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPPtAb.csvt"
+ :filename "lookup_1991_Total_Population_TPPtAb.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPVis.csv"
+ :filename "lookup_1991_Total_Population_TPVis.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPVis.csvt"
+ :filename "lookup_1991_Total_Population_TPVis.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPVisNR.csv"
+ :filename "lookup_1991_Total_Population_TPVisNR.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPVisNR.csvt"
+ :filename "lookup_1991_Total_Population_TPVisNR.csvt"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPVisRUK.csv"
+ :filename "lookup_1991_Total_Population_TPVisRUK.csv"}
+{:path "./total-population/1991/lookup_1991_Total_Population_TPVisRUK.csvt"
+ :filename "lookup_1991_Total_Population_TPVisRUK.csvt"}
+{:path "./total-population/2001/5a_ascii_grid2001_Total_Population_UsRsPopA.asc"
+ :filename "5a_ascii_grid2001_Total_Population_UsRsPopA.asc"}
+{:path "./total-population/2001/5a_ascii_grid2001_Total_Population_UsRsPopC.asc"
+ :filename "5a_ascii_grid2001_Total_Population_UsRsPopC.asc"}
+{:path "./total-population/2001/5a_ascii_grid2001_Total_Population_UsRsPopF.asc"
+ :filename "5a_ascii_grid2001_Total_Population_UsRsPopF.asc"}
+{:path "./total-population/2001/5a_ascii_grid2001_Total_Population_UsRsPopH.asc"
+ :filename "5a_ascii_grid2001_Total_Population_UsRsPopH.asc"}
+{:path "./total-population/2001/5a_ascii_grid2001_Total_Population_UsRsPopM.asc"
+ :filename "5a_ascii_grid2001_Total_Population_UsRsPopM.asc"}
+{:path "./total-population/2001/5a_ascii_grid2001_Total_Population_UsRsPopS.asc"
+ :filename "5a_ascii_grid2001_Total_Population_UsRsPopS.asc"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopA.csv"
+ :filename "lookup_2001_Total_Population_UsRsPopA.csv"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopA.csvt"
+ :filename "lookup_2001_Total_Population_UsRsPopA.csvt"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopC.csv"
+ :filename "lookup_2001_Total_Population_UsRsPopC.csv"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopC.csvt"
+ :filename "lookup_2001_Total_Population_UsRsPopC.csvt"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopF.csv"
+ :filename "lookup_2001_Total_Population_UsRsPopF.csv"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopF.csvt"
+ :filename "lookup_2001_Total_Population_UsRsPopF.csvt"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopH.csv"
+ :filename "lookup_2001_Total_Population_UsRsPopH.csv"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopH.csvt"
+ :filename "lookup_2001_Total_Population_UsRsPopH.csvt"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopM.csv"
+ :filename "lookup_2001_Total_Population_UsRsPopM.csv"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopM.csvt"
+ :filename "lookup_2001_Total_Population_UsRsPopM.csvt"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopS.csv"
+ :filename "lookup_2001_Total_Population_UsRsPopS.csv"}
+{:path "./total-population/2001/lookup_2001_Total_Population_UsRsPopS.csvt"
+ :filename "lookup_2001_Total_Population_UsRsPopS.csvt"}
+{:path "./total-population/2011/5a_ascii_grid2011_Total_Population_URPopAll.asc"
+ :filename "5a_ascii_grid2011_Total_Population_URPopAll.asc"}
+{:path "./total-population/2011/5a_ascii_grid2011_Total_Population_URPopC.asc"
+ :filename "5a_ascii_grid2011_Total_Population_URPopC.asc"}
+{:path "./total-population/2011/5a_ascii_grid2011_Total_Population_URPopF.asc"
+ :filename "5a_ascii_grid2011_Total_Population_URPopF.asc"}
+{:path "./total-population/2011/5a_ascii_grid2011_Total_Population_URPopH.asc"
+ :filename "5a_ascii_grid2011_Total_Population_URPopH.asc"}
+{:path "./total-population/2011/5a_ascii_grid2011_Total_Population_URPopM.asc"
+ :filename "5a_ascii_grid2011_Total_Population_URPopM.asc"}
+{:path "./total-population/2011/5a_ascii_grid2011_Total_Population_URPopS.asc"
+ :filename "5a_ascii_grid2011_Total_Population_URPopS.asc"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopAll.csv"
+ :filename "lookup_2011_Total_Population_URPopAll.csv"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopAll.csvt"
+ :filename "lookup_2011_Total_Population_URPopAll.csvt"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopC.csv"
+ :filename "lookup_2011_Total_Population_URPopC.csv"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopC.csvt"
+ :filename "lookup_2011_Total_Population_URPopC.csvt"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopF.csv"
+ :filename "lookup_2011_Total_Population_URPopF.csv"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopF.csvt"
+ :filename "lookup_2011_Total_Population_URPopF.csvt"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopH.csv"
+ :filename "lookup_2011_Total_Population_URPopH.csv"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopH.csvt"
+ :filename "lookup_2011_Total_Population_URPopH.csvt"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopM.csv"
+ :filename "lookup_2011_Total_Population_URPopM.csv"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopM.csvt"
+ :filename "lookup_2011_Total_Population_URPopM.csvt"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopS.csv"
+ :filename "lookup_2011_Total_Population_URPopS.csv"}
+{:path "./total-population/2011/lookup_2011_Total_Population_URPopS.csvt"
+ :filename "lookup_2011_Total_Population_URPopS.csvt"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_NoCar.asc"
+ :filename "5a_ascii_grid1971_Townsend_NoCar.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_Oc05_075.asc"
+ :filename "5a_ascii_grid1971_Townsend_Oc05_075.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_Oc05.asc"
+ :filename "5a_ascii_grid1971_Townsend_Oc05.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_Oc075_1.asc"
+ :filename "5a_ascii_grid1971_Townsend_Oc075_1.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_Oc1_15.asc"
+ :filename "5a_ascii_grid1971_Townsend_Oc1_15.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_Oc15.asc"
+ :filename "5a_ascii_grid1971_Townsend_Oc15.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_SeekWork.asc"
+ :filename "5a_ascii_grid1971_Townsend_SeekWork.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_SkWkFmMd.asc"
+ :filename "5a_ascii_grid1971_Townsend_SkWkFmMd.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_SkWkFmSW.asc"
+ :filename "5a_ascii_grid1971_Townsend_SkWkFmSW.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_SkWkMale.asc"
+ :filename "5a_ascii_grid1971_Townsend_SkWkMale.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_TnOther.asc"
+ :filename "5a_ascii_grid1971_Townsend_TnOther.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_TNOwnOcc.asc"
+ :filename "5a_ascii_grid1971_Townsend_TNOwnOcc.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_TnRentFr.asc"
+ :filename "5a_ascii_grid1971_Townsend_TnRentFr.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_TnRentLA.asc"
+ :filename "5a_ascii_grid1971_Townsend_TnRentLA.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_TnRentUn.asc"
+ :filename "5a_ascii_grid1971_Townsend_TnRentUn.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_WFemMar.asc"
+ :filename "5a_ascii_grid1971_Townsend_WFemMar.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_WFemSWD.asc"
+ :filename "5a_ascii_grid1971_Townsend_WFemSWD.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_Working.asc"
+ :filename "5a_ascii_grid1971_Townsend_Working.asc"}
+{:path "./townsend/1971/5a_ascii_grid1971_Townsend_WorkMale.asc"
+ :filename "5a_ascii_grid1971_Townsend_WorkMale.asc"}
+{:path "./townsend/1971/lookup_1971_Townsend_NoCar.csv"
+ :filename "lookup_1971_Townsend_NoCar.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_NoCar.csvt"
+ :filename "lookup_1971_Townsend_NoCar.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc05_075.csv"
+ :filename "lookup_1971_Townsend_Oc05_075.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc05_075.csvt"
+ :filename "lookup_1971_Townsend_Oc05_075.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc05.csv"
+ :filename "lookup_1971_Townsend_Oc05.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc05.csvt"
+ :filename "lookup_1971_Townsend_Oc05.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc075_1.csv"
+ :filename "lookup_1971_Townsend_Oc075_1.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc075_1.csvt"
+ :filename "lookup_1971_Townsend_Oc075_1.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc1_15.csv"
+ :filename "lookup_1971_Townsend_Oc1_15.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc1_15.csvt"
+ :filename "lookup_1971_Townsend_Oc1_15.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc15.csv"
+ :filename "lookup_1971_Townsend_Oc15.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_Oc15.csvt"
+ :filename "lookup_1971_Townsend_Oc15.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_SeekWork.csv"
+ :filename "lookup_1971_Townsend_SeekWork.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_SeekWork.csvt"
+ :filename "lookup_1971_Townsend_SeekWork.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_SkWkFmMd.csv"
+ :filename "lookup_1971_Townsend_SkWkFmMd.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_SkWkFmMd.csvt"
+ :filename "lookup_1971_Townsend_SkWkFmMd.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_SkWkFmSW.csv"
+ :filename "lookup_1971_Townsend_SkWkFmSW.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_SkWkFmSW.csvt"
+ :filename "lookup_1971_Townsend_SkWkFmSW.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_SkWkMale.csv"
+ :filename "lookup_1971_Townsend_SkWkMale.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_SkWkMale.csvt"
+ :filename "lookup_1971_Townsend_SkWkMale.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnOther.csv"
+ :filename "lookup_1971_Townsend_TnOther.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnOther.csvt"
+ :filename "lookup_1971_Townsend_TnOther.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_TNOwnOcc.csv"
+ :filename "lookup_1971_Townsend_TNOwnOcc.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_TNOwnOcc.csvt"
+ :filename "lookup_1971_Townsend_TNOwnOcc.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnRentFr.csv"
+ :filename "lookup_1971_Townsend_TnRentFr.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnRentFr.csvt"
+ :filename "lookup_1971_Townsend_TnRentFr.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnRentLA.csv"
+ :filename "lookup_1971_Townsend_TnRentLA.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnRentLA.csvt"
+ :filename "lookup_1971_Townsend_TnRentLA.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnRentUn.csv"
+ :filename "lookup_1971_Townsend_TnRentUn.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_TnRentUn.csvt"
+ :filename "lookup_1971_Townsend_TnRentUn.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_WFemMar.csv"
+ :filename "lookup_1971_Townsend_WFemMar.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_WFemMar.csvt"
+ :filename "lookup_1971_Townsend_WFemMar.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_WFemSWD.csv"
+ :filename "lookup_1971_Townsend_WFemSWD.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_WFemSWD.csvt"
+ :filename "lookup_1971_Townsend_WFemSWD.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_Working.csv"
+ :filename "lookup_1971_Townsend_Working.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_Working.csvt"
+ :filename "lookup_1971_Townsend_Working.csvt"}
+{:path "./townsend/1971/lookup_1971_Townsend_WorkMale.csv"
+ :filename "lookup_1971_Townsend_WorkMale.csv"}
+{:path "./townsend/1971/lookup_1971_Townsend_WorkMale.csvt"
+ :filename "lookup_1971_Townsend_WorkMale.csvt"}
+{:path "./townsend/1971_outputs/1971_townsend_no_car_van_pc.asc"
+ :filename "1971_townsend_no_car_van_pc.asc"}
+{:path "./townsend/1971_outputs/1971_townsend_no_car_van_pc.csv"
+ :filename "1971_townsend_no_car_van_pc.csv"}
+{:path "./townsend/1971_outputs/1971_townsend_no_car_van_pc.csvt"
+ :filename "1971_townsend_no_car_van_pc.csvt"}
+{:path "./townsend/1971_outputs/1971_townsend_non_own_occ_pc.asc"
+ :filename "1971_townsend_non_own_occ_pc.asc"}
+{:path "./townsend/1971_outputs/1971_townsend_non_own_occ_pc.csv"
+ :filename "1971_townsend_non_own_occ_pc.csv"}
+{:path "./townsend/1971_outputs/1971_townsend_non_own_occ_pc.csvt"
+ :filename "1971_townsend_non_own_occ_pc.csvt"}
+{:path "./townsend/1971_outputs/1971_townsend_overcrowded_pc.asc"
+ :filename "1971_townsend_overcrowded_pc.asc"}
+{:path "./townsend/1971_outputs/1971_townsend_overcrowded_pc.csv"
+ :filename "1971_townsend_overcrowded_pc.csv"}
+{:path "./townsend/1971_outputs/1971_townsend_overcrowded_pc.csvt"
+ :filename "1971_townsend_overcrowded_pc.csvt"}
+{:path "./townsend/1971_outputs/1971_townsend_unemployed_pc.asc"
+ :filename "1971_townsend_unemployed_pc.asc"}
+{:path "./townsend/1971_outputs/1971_townsend_unemployed_pc.csv"
+ :filename "1971_townsend_unemployed_pc.csv"}
+{:path "./townsend/1971_outputs/1971_townsend_unemployed_pc.csvt"
+ :filename "1971_townsend_unemployed_pc.csvt"}
+{:path "./townsend/1971_townsend_z_scores.asc"
+ :filename "1971_townsend_z_scores.asc"}
+{:path "./townsend/1971_townsend_z_scores.csv"
+ :filename "1971_townsend_z_scores.csv"}
+{:path "./townsend/1971_townsend_z_scores.csvt"
+ :filename "1971_townsend_z_scores.csvt"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_Employed.asc"
+ :filename "5a_ascii_grid1981_Townsend_Employed.asc"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_NoCar.asc"
+ :filename "5a_ascii_grid1981_Townsend_NoCar.asc"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_Oc1_15.asc"
+ :filename "5a_ascii_grid1981_Townsend_Oc1_15.asc"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_SelfEmpl.asc"
+ :filename "5a_ascii_grid1981_Townsend_SelfEmpl.asc"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_TNOwnOcc.asc"
+ :filename "5a_ascii_grid1981_Townsend_TNOwnOcc.asc"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_Total.asc"
+ :filename "5a_ascii_grid1981_Townsend_Total.asc"}
+{:path "./townsend/1981/5a_ascii_grid1981_Townsend_Unemploy.asc"
+ :filename "5a_ascii_grid1981_Townsend_Unemploy.asc"}
+{:path "./townsend/1981/lookup_1981_Townsend_Employed.csv"
+ :filename "lookup_1981_Townsend_Employed.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_Employed.csvt"
+ :filename "lookup_1981_Townsend_Employed.csvt"}
+{:path "./townsend/1981/lookup_1981_Townsend_NoCar.csv"
+ :filename "lookup_1981_Townsend_NoCar.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_NoCar.csvt"
+ :filename "lookup_1981_Townsend_NoCar.csvt"}
+{:path "./townsend/1981/lookup_1981_Townsend_Oc1_15.csv"
+ :filename "lookup_1981_Townsend_Oc1_15.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_Oc1_15.csvt"
+ :filename "lookup_1981_Townsend_Oc1_15.csvt"}
+{:path "./townsend/1981/lookup_1981_Townsend_SelfEmpl.csv"
+ :filename "lookup_1981_Townsend_SelfEmpl.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_SelfEmpl.csvt"
+ :filename "lookup_1981_Townsend_SelfEmpl.csvt"}
+{:path "./townsend/1981/lookup_1981_Townsend_TNOwnOcc.csv"
+ :filename "lookup_1981_Townsend_TNOwnOcc.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_TNOwnOcc.csvt"
+ :filename "lookup_1981_Townsend_TNOwnOcc.csvt"}
+{:path "./townsend/1981/lookup_1981_Townsend_Total.csv"
+ :filename "lookup_1981_Townsend_Total.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_Total.csvt"
+ :filename "lookup_1981_Townsend_Total.csvt"}
+{:path "./townsend/1981/lookup_1981_Townsend_Unemploy.csv"
+ :filename "lookup_1981_Townsend_Unemploy.csv"}
+{:path "./townsend/1981/lookup_1981_Townsend_Unemploy.csvt"
+ :filename "lookup_1981_Townsend_Unemploy.csvt"}
+{:path "./townsend/1981_outputs/1981_townsend_no_car_van_pc.asc"
+ :filename "1981_townsend_no_car_van_pc.asc"}
+{:path "./townsend/1981_outputs/1981_townsend_no_car_van_pc.csv"
+ :filename "1981_townsend_no_car_van_pc.csv"}
+{:path "./townsend/1981_outputs/1981_townsend_no_car_van_pc.csvt"
+ :filename "1981_townsend_no_car_van_pc.csvt"}
+{:path "./townsend/1981_outputs/1981_townsend_non_own_occ_pc.asc"
+ :filename "1981_townsend_non_own_occ_pc.asc"}
+{:path "./townsend/1981_outputs/1981_townsend_non_own_occ_pc.csv"
+ :filename "1981_townsend_non_own_occ_pc.csv"}
+{:path "./townsend/1981_outputs/1981_townsend_non_own_occ_pc.csvt"
+ :filename "1981_townsend_non_own_occ_pc.csvt"}
+{:path "./townsend/1981_outputs/1981_townsend_overcrowded_pc.asc"
+ :filename "1981_townsend_overcrowded_pc.asc"}
+{:path "./townsend/1981_outputs/1981_townsend_overcrowded_pc.csv"
+ :filename "1981_townsend_overcrowded_pc.csv"}
+{:path "./townsend/1981_outputs/1981_townsend_overcrowded_pc.csvt"
+ :filename "1981_townsend_overcrowded_pc.csvt"}
+{:path "./townsend/1981_outputs/1981_townsend_unemployed_pc.asc"
+ :filename "1981_townsend_unemployed_pc.asc"}
+{:path "./townsend/1981_outputs/1981_townsend_unemployed_pc.csv"
+ :filename "1981_townsend_unemployed_pc.csv"}
+{:path "./townsend/1981_outputs/1981_townsend_unemployed_pc.csvt"
+ :filename "1981_townsend_unemployed_pc.csvt"}
+{:path "./townsend/1981_townsend_z_scores.asc"
+ :filename "1981_townsend_z_scores.asc"}
+{:path "./townsend/1981_townsend_z_scores.csv"
+ :filename "1981_townsend_z_scores.csv"}
+{:path "./townsend/1981_townsend_z_scores.csvt"
+ :filename "1981_townsend_z_scores.csvt"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_Cr1Car.asc"
+ :filename "5a_ascii_grid1991_Townsend_Cr1Car.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_Cr2Cars.asc"
+ :filename "5a_ascii_grid1991_Townsend_Cr2Cars.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_Cr3pCars.asc"
+ :filename "5a_ascii_grid1991_Townsend_Cr3pCars.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_CrNoCar.asc"
+ :filename "5a_ascii_grid1991_Townsend_CrNoCar.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_CrTotHs.asc"
+ :filename "5a_ascii_grid1991_Townsend_CrTotHs.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_Employed.asc"
+ :filename "5a_ascii_grid1991_Townsend_Employed.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_Oc1p.asc"
+ :filename "5a_ascii_grid1991_Townsend_Oc1p.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_OcTotal.asc"
+ :filename "5a_ascii_grid1991_Townsend_OcTotal.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnAll.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnAll.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnNoCar.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnNoCar.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnNonPm.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnNonPm.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnOwnBy.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnOwnBy.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnOwnOR.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnOwnOR.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnRentHA.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnRentHA.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnRentLA.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnRentLA.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnRntFur.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnRntFur.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnRntJob.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnRntJob.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_TnRntUFr.asc"
+ :filename "5a_ascii_grid1991_Townsend_TnRntUFr.asc"}
+{:path "./townsend/1991/5a_ascii_grid1991_Townsend_Unemploy.asc"
+ :filename "5a_ascii_grid1991_Townsend_Unemploy.asc"}
+{:path "./townsend/1991/lookup_1991_Townsend_Cr1Car.csv"
+ :filename "lookup_1991_Townsend_Cr1Car.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_Cr1Car.csvt"
+ :filename "lookup_1991_Townsend_Cr1Car.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_Cr2Cars.csv"
+ :filename "lookup_1991_Townsend_Cr2Cars.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_Cr2Cars.csvt"
+ :filename "lookup_1991_Townsend_Cr2Cars.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_Cr3pCars.csv"
+ :filename "lookup_1991_Townsend_Cr3pCars.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_Cr3pCars.csvt"
+ :filename "lookup_1991_Townsend_Cr3pCars.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_CrNoCar.csv"
+ :filename "lookup_1991_Townsend_CrNoCar.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_CrNoCar.csvt"
+ :filename "lookup_1991_Townsend_CrNoCar.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_CrTotHs.csv"
+ :filename "lookup_1991_Townsend_CrTotHs.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_CrTotHs.csvt"
+ :filename "lookup_1991_Townsend_CrTotHs.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_Employed.csv"
+ :filename "lookup_1991_Townsend_Employed.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_Employed.csvt"
+ :filename "lookup_1991_Townsend_Employed.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_Oc1p.csv"
+ :filename "lookup_1991_Townsend_Oc1p.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_Oc1p.csvt"
+ :filename "lookup_1991_Townsend_Oc1p.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_OcTotal.csv"
+ :filename "lookup_1991_Townsend_OcTotal.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_OcTotal.csvt"
+ :filename "lookup_1991_Townsend_OcTotal.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnAll.csv"
+ :filename "lookup_1991_Townsend_TnAll.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnAll.csvt"
+ :filename "lookup_1991_Townsend_TnAll.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnNoCar.csv"
+ :filename "lookup_1991_Townsend_TnNoCar.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnNoCar.csvt"
+ :filename "lookup_1991_Townsend_TnNoCar.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnNonPm.csv"
+ :filename "lookup_1991_Townsend_TnNonPm.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnNonPm.csvt"
+ :filename "lookup_1991_Townsend_TnNonPm.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnOwnBy.csv"
+ :filename "lookup_1991_Townsend_TnOwnBy.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnOwnBy.csvt"
+ :filename "lookup_1991_Townsend_TnOwnBy.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnOwnOR.csv"
+ :filename "lookup_1991_Townsend_TnOwnOR.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnOwnOR.csvt"
+ :filename "lookup_1991_Townsend_TnOwnOR.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRentHA.csv"
+ :filename "lookup_1991_Townsend_TnRentHA.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRentHA.csvt"
+ :filename "lookup_1991_Townsend_TnRentHA.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRentLA.csv"
+ :filename "lookup_1991_Townsend_TnRentLA.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRentLA.csvt"
+ :filename "lookup_1991_Townsend_TnRentLA.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRntFur.csv"
+ :filename "lookup_1991_Townsend_TnRntFur.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRntFur.csvt"
+ :filename "lookup_1991_Townsend_TnRntFur.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRntJob.csv"
+ :filename "lookup_1991_Townsend_TnRntJob.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRntJob.csvt"
+ :filename "lookup_1991_Townsend_TnRntJob.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRntUFr.csv"
+ :filename "lookup_1991_Townsend_TnRntUFr.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_TnRntUFr.csvt"
+ :filename "lookup_1991_Townsend_TnRntUFr.csvt"}
+{:path "./townsend/1991/lookup_1991_Townsend_Unemploy.csv"
+ :filename "lookup_1991_Townsend_Unemploy.csv"}
+{:path "./townsend/1991/lookup_1991_Townsend_Unemploy.csvt"
+ :filename "lookup_1991_Townsend_Unemploy.csvt"}
+{:path "./townsend/1991_outputs/1991_townsend_no_car_van_pc.asc"
+ :filename "1991_townsend_no_car_van_pc.asc"}
+{:path "./townsend/1991_outputs/1991_townsend_no_car_van_pc.csv"
+ :filename "1991_townsend_no_car_van_pc.csv"}
+{:path "./townsend/1991_outputs/1991_townsend_no_car_van_pc.csvt"
+ :filename "1991_townsend_no_car_van_pc.csvt"}
+{:path "./townsend/1991_outputs/1991_townsend_non_own_occ_pc.asc"
+ :filename "1991_townsend_non_own_occ_pc.asc"}
+{:path "./townsend/1991_outputs/1991_townsend_non_own_occ_pc.csv"
+ :filename "1991_townsend_non_own_occ_pc.csv"}
+{:path "./townsend/1991_outputs/1991_townsend_non_own_occ_pc.csvt"
+ :filename "1991_townsend_non_own_occ_pc.csvt"}
+{:path "./townsend/1991_outputs/1991_townsend_overcrowded_pc.asc"
+ :filename "1991_townsend_overcrowded_pc.asc"}
+{:path "./townsend/1991_outputs/1991_townsend_overcrowded_pc.csv"
+ :filename "1991_townsend_overcrowded_pc.csv"}
+{:path "./townsend/1991_outputs/1991_townsend_overcrowded_pc.csvt"
+ :filename "1991_townsend_overcrowded_pc.csvt"}
+{:path "./townsend/1991_outputs/1991_townsend_unemployed_pc.asc"
+ :filename "1991_townsend_unemployed_pc.asc"}
+{:path "./townsend/1991_outputs/1991_townsend_unemployed_pc.csv"
+ :filename "1991_townsend_unemployed_pc.csv"}
+{:path "./townsend/1991_outputs/1991_townsend_unemployed_pc.csvt"
+ :filename "1991_townsend_unemployed_pc.csvt"}
+{:path "./townsend/1991_townsend_z_scores.asc"
+ :filename "1991_townsend_z_scores.asc"}
+{:path "./townsend/1991_townsend_z_scores.csv"
+ :filename "1991_townsend_z_scores.csv"}
+{:path "./townsend/1991_townsend_z_scores.csvt"
+ :filename "1991_townsend_z_scores.csvt"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_CarTotalHs.asc"
+ :filename "5a_ascii_grid2001_Townsend_CarTotalHs.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_EAAllEm.asc"
+ :filename "5a_ascii_grid2001_Townsend_EAAllEm.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_EAUnem.asc"
+ :filename "5a_ascii_grid2001_Townsend_EAUnem.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_NoCar.asc"
+ :filename "5a_ascii_grid2001_Townsend_NoCar.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_OcOcc1.asc"
+ :filename "5a_ascii_grid2001_Townsend_OcOcc1.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_OcTotal.asc"
+ :filename "5a_ascii_grid2001_Townsend_OcTotal.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnOwnMt.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnOwnMt.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnOwnOR.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnOwnOR.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnOwnSH.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnOwnSH.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnRentHA.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnRentHA.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnRentLA.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnRentLA.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnRentOt.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnRentOt.asc"}
+{:path "./townsend/2001/5a_ascii_grid2001_Townsend_TnRentPr.asc"
+ :filename "5a_ascii_grid2001_Townsend_TnRentPr.asc"}
+{:path "./townsend/2001_outputs/2001_townsend_no_car_van_pc.asc"
+ :filename "2001_townsend_no_car_van_pc.asc"}
+{:path "./townsend/2001_outputs/2001_townsend_no_car_van_pc.csv"
+ :filename "2001_townsend_no_car_van_pc.csv"}
+{:path "./townsend/2001_outputs/2001_townsend_no_car_van_pc.csvt"
+ :filename "2001_townsend_no_car_van_pc.csvt"}
+{:path "./townsend/2001_outputs/2001_townsend_non_own_occ_pc.asc"
+ :filename "2001_townsend_non_own_occ_pc.asc"}
+{:path "./townsend/2001_outputs/2001_townsend_non_own_occ_pc.csv"
+ :filename "2001_townsend_non_own_occ_pc.csv"}
+{:path "./townsend/2001_outputs/2001_townsend_non_own_occ_pc.csvt"
+ :filename "2001_townsend_non_own_occ_pc.csvt"}
+{:path "./townsend/2001_outputs/2001_townsend_overcrowded_pc.asc"
+ :filename "2001_townsend_overcrowded_pc.asc"}
+{:path "./townsend/2001_outputs/2001_townsend_overcrowded_pc.csv"
+ :filename "2001_townsend_overcrowded_pc.csv"}
+{:path "./townsend/2001_outputs/2001_townsend_overcrowded_pc.csvt"
+ :filename "2001_townsend_overcrowded_pc.csvt"}
+{:path "./townsend/2001_outputs/2001_townsend_unemployed_pc.asc"
+ :filename "2001_townsend_unemployed_pc.asc"}
+{:path "./townsend/2001_outputs/2001_townsend_unemployed_pc.csv"
+ :filename "2001_townsend_unemployed_pc.csv"}
+{:path "./townsend/2001_outputs/2001_townsend_unemployed_pc.csvt"
+ :filename "2001_townsend_unemployed_pc.csvt"}
+{:path "./townsend/2001_townsend_z_scores.asc"
+ :filename "2001_townsend_z_scores.asc"}
+{:path "./townsend/2001_townsend_z_scores.csv"
+ :filename "2001_townsend_z_scores.csv"}
+{:path "./townsend/2001_townsend_z_scores.csvt"
+ :filename "2001_townsend_z_scores.csvt"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_CarNoCar.asc"
+ :filename "5a_ascii_grid2011_Townsend_CarNoCar.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_CarTotalHs.asc"
+ :filename "5a_ascii_grid2011_Townsend_CarTotalHs.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_EAFull.asc"
+ :filename "5a_ascii_grid2011_Townsend_EAFull.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_EAPart.asc"
+ :filename "5a_ascii_grid2011_Townsend_EAPart.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_EASelf.asc"
+ :filename "5a_ascii_grid2011_Townsend_EASelf.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_EAUnem.asc"
+ :filename "5a_ascii_grid2011_Townsend_EAUnem.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_OcOcc1.asc"
+ :filename "5a_ascii_grid2011_Townsend_OcOcc1.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_OcTotal.asc"
+ :filename "5a_ascii_grid2011_Townsend_OcTotal.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnAll.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnAll.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnOwnMt.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnOwnMt.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnOwnOR.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnOwnOR.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnOwnSH.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnOwnSH.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnRentFr.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnRentFr.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnRentLA.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnRentLA.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnRentOt.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnRentOt.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnRentPr.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnRentPr.asc"}
+{:path "./townsend/2011/5a_ascii_grid2011_Townsend_TnRentSo.asc"
+ :filename "5a_ascii_grid2011_Townsend_TnRentSo.asc"}
+{:path "./townsend/2011/lookup_2011_Townsend_CarNoCar.csv"
+ :filename "lookup_2011_Townsend_CarNoCar.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_CarNoCar.csvt"
+ :filename "lookup_2011_Townsend_CarNoCar.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_CarTotalHs.csv"
+ :filename "lookup_2011_Townsend_CarTotalHs.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_CarTotalHs.csvt"
+ :filename "lookup_2011_Townsend_CarTotalHs.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_EAFull.csv"
+ :filename "lookup_2011_Townsend_EAFull.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_EAFull.csvt"
+ :filename "lookup_2011_Townsend_EAFull.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_EAPart.csv"
+ :filename "lookup_2011_Townsend_EAPart.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_EAPart.csvt"
+ :filename "lookup_2011_Townsend_EAPart.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_EASelf.csv"
+ :filename "lookup_2011_Townsend_EASelf.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_EASelf.csvt"
+ :filename "lookup_2011_Townsend_EASelf.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_EAUnem.csv"
+ :filename "lookup_2011_Townsend_EAUnem.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_EAUnem.csvt"
+ :filename "lookup_2011_Townsend_EAUnem.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_OcOcc1.csv"
+ :filename "lookup_2011_Townsend_OcOcc1.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_OcOcc1.csvt"
+ :filename "lookup_2011_Townsend_OcOcc1.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_OcTotal.csv"
+ :filename "lookup_2011_Townsend_OcTotal.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_OcTotal.csvt"
+ :filename "lookup_2011_Townsend_OcTotal.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnAll.csv"
+ :filename "lookup_2011_Townsend_TnAll.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnAll.csvt"
+ :filename "lookup_2011_Townsend_TnAll.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnOwnMt.csv"
+ :filename "lookup_2011_Townsend_TnOwnMt.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnOwnMt.csvt"
+ :filename "lookup_2011_Townsend_TnOwnMt.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnOwnOR.csv"
+ :filename "lookup_2011_Townsend_TnOwnOR.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnOwnOR.csvt"
+ :filename "lookup_2011_Townsend_TnOwnOR.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnOwnSH.csv"
+ :filename "lookup_2011_Townsend_TnOwnSH.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnOwnSH.csvt"
+ :filename "lookup_2011_Townsend_TnOwnSH.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentFr.csv"
+ :filename "lookup_2011_Townsend_TnRentFr.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentFr.csvt"
+ :filename "lookup_2011_Townsend_TnRentFr.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentLA.csv"
+ :filename "lookup_2011_Townsend_TnRentLA.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentLA.csvt"
+ :filename "lookup_2011_Townsend_TnRentLA.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentOt.csv"
+ :filename "lookup_2011_Townsend_TnRentOt.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentOt.csvt"
+ :filename "lookup_2011_Townsend_TnRentOt.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentPr.csv"
+ :filename "lookup_2011_Townsend_TnRentPr.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentPr.csvt"
+ :filename "lookup_2011_Townsend_TnRentPr.csvt"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentSo.csv"
+ :filename "lookup_2011_Townsend_TnRentSo.csv"}
+{:path "./townsend/2011/lookup_2011_Townsend_TnRentSo.csvt"
+ :filename "lookup_2011_Townsend_TnRentSo.csvt"}
+{:path "./townsend/2011_outputs/2011_townsend_no_car_van_pc.asc"
+ :filename "2011_townsend_no_car_van_pc.asc"}
+{:path "./townsend/2011_outputs/2011_townsend_no_car_van_pc.csv"
+ :filename "2011_townsend_no_car_van_pc.csv"}
+{:path "./townsend/2011_outputs/2011_townsend_no_car_van_pc.csvt"
+ :filename "2011_townsend_no_car_van_pc.csvt"}
+{:path "./townsend/2011_outputs/2011_townsend_non_own_occ_pc.asc"
+ :filename "2011_townsend_non_own_occ_pc.asc"}
+{:path "./townsend/2011_outputs/2011_townsend_non_own_occ_pc.csv"
+ :filename "2011_townsend_non_own_occ_pc.csv"}
+{:path "./townsend/2011_outputs/2011_townsend_non_own_occ_pc.csvt"
+ :filename "2011_townsend_non_own_occ_pc.csvt"}
+{:path "./townsend/2011_outputs/2011_townsend_overcrowded_pc.asc"
+ :filename "2011_townsend_overcrowded_pc.asc"}
+{:path "./townsend/2011_outputs/2011_townsend_overcrowded_pc.csv"
+ :filename "2011_townsend_overcrowded_pc.csv"}
+{:path "./townsend/2011_outputs/2011_townsend_overcrowded_pc.csvt"
+ :filename "2011_townsend_overcrowded_pc.csvt"}
+{:path "./townsend/2011_outputs/2011_townsend_unemployed_pc.asc"
+ :filename "2011_townsend_unemployed_pc.asc"}
+{:path "./townsend/2011_outputs/2011_townsend_unemployed_pc.csv"
+ :filename "2011_townsend_unemployed_pc.csv"}
+{:path "./townsend/2011_outputs/2011_townsend_unemployed_pc.csvt"
+ :filename "2011_townsend_unemployed_pc.csvt"}
+{:path "./townsend/2011_townsend_z_scores.asc"
+ :filename "2011_townsend_z_scores.asc"}
+{:path "./townsend/2011_townsend_z_scores.csv"
+ :filename "2011_townsend_z_scores.csv"}
+{:path "./townsend/2011_townsend_z_scores.csvt"
+ :filename "2011_townsend_z_scores.csvt"}
+
+]

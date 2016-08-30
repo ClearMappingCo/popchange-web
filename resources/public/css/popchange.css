@@ -1,0 +1,104 @@
+form .error {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+form .message {
+    font-weight: bold;
+    color: #00CC00;
+}
+
+form.user-registration .error {
+    margin-top: 5px;
+}
+
+
+.navbar-brand {
+    padding: 5px 15px;
+    /* position: relative; */
+}
+
+.navbar-header.logo-centred  {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+}
+
+#navbar {
+    float: right;
+}
+
+.uol-logo {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.uol-logo img {
+    max-height: 50px;
+}
+
+/* .footer .esrc-logo img, .footer .sdai-logo img, .footer .csdr-logo img {
+    max-width: 10px;
+}
+*/
+
+.footer .supporters-bg {
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.footer .supporters {
+    font-size: 0.9em;
+}
+
+.footer .supporters img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.wrapper {
+    margin-bottom: 260px;
+}
+
+
+/* User login */
+
+.user-login {
+    margin-top: -20px;
+    background-image: url('/img/login_bg.jpg');
+    background-size: cover;
+    background-repear: no-repeat;
+    background-position: center center;
+}
+
+.user-login-form-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+
+.user-login-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.user-login-form {
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.user-login-forgot-pass {
+    margin-bottom: 20px;
+}
+
+.user-login-intro {
+    margin-top: 40px;
+}
