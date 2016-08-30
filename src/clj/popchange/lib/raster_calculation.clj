@@ -2,20 +2,23 @@
   (:require [clojure.java.io :as io]
             [clojure.string :as s]
             [me.raynes.conch :refer [programs]]
+            [me.raynes.conch.low-level :refer [proc] :as sh]
             [popchange.config :as cfg]
             [popchange.db.conn :as conn]
             [popchange.db.raster-calculation :as db]
             [popchange.util :as util]))
 
-(programs gdal_translate gdalinfo python) ;; requires gdal-bin package on host
+(programs gdal_translate gdalinfo python rm) ;; requires gdal-bin package on host
 
 (def working-dir cfg/working-dir)
+
+(def wdir (partial str working-dir))
 
 (defn working-dir-file
   ([id]
    (working-dir-file id "tiff"))
   ([id ext]
-   (str working-dir "/rcalc_" id "." ext)))
+   (wdir "/rcalc_" id "." ext)))
 
 (defn make-working-dir!
   "Creates working directory if doesn't exist"
@@ -311,3 +314,21 @@
            (s/replace "{REPLACE_CC_MIN}" (format colour-map-stop-format (:value (first stops))))
            (s/replace "{REPLACE_COLOUR_RAMP}" (apply str (colour-map-stops-xml stops)))))
       (python raster-to-png-script tiff style-filename png))))
+
+(defn tiff->shapefile-zip
+  [tiff dst]
+  (let [basename (util/md5 tiff)
+        wd (wdir "/" basename "_tmp")
+        tmpf (partial str wd "/")
+        vector-file (str basename ".shp")
+        ;;bn (partial str basename)
+        ;;vector-files [(bn ".shp") (bn ".shx") (bn ".dbf")]
+        ]
+    ;; (def vf vector-files)
+    (do
+      (.mkdir (io/as-file wd))
+      (sh/proc "gdal_polygonize.py" tiff "-f" "ESRI Shapefile" (tmpf vector-file))
+      (sh/exit-code (sh/proc "zip" "-r" dst "." :dir wd))
+      (sh/exit-code (sh/proc "rm" "-Rf" wd))
+      )
+))
