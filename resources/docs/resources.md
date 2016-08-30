@@ -10,6 +10,14 @@ The PopChange website is the public facing part of a research project lead by [P
 
 The process of generating the grids from the original census geographies (output areas or enumeration districts) are documented on the project website. The R scripts for this are at [https://github.com/nickbearman/popchange](https://github.com/nickbearman/popchange) with inline comments outlining the process. 
 
+###Academic Reference
+
+The approach to creation of the population surfaces is detailed [here](http://www.nickbearman.me.uk/data/PopulationSurfaces.pdf). When using the PopChange population surfaces in publications please cite this document as follows:  
+
+Lloyd, C. D., Bearman, N., Catney, G, Singleton, A. and Williamson, P. (2016) PopChange. Liverpool: Centre for Spatial Demographics Research, University of Liverpool. [https://www.liverpool.ac.uk/geography-and-planning/research/popchange/introduction/](https://www.liverpool.ac.uk/geography-and-planning/research/popchange/introduction/)  
+
+This document will be replaced with a journal article in due course – please check the PopChange website for updates to the core project publications.
+
 ###PopChange Web Resource
 
 This website (http://popchange.liverpool.ac.uk) was developed using a range of open resources and the source code will be available soon at [https://github.com/ClearMappingCo/popchange-web](https://github.com/ClearMappingCo/popchange-web). 

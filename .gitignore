@@ -12,3 +12,5 @@ profiles.clj
 /log
 *-init.clj
 figwheel_server.log
+
+res.html
