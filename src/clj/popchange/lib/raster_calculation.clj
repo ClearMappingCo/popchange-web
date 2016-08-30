@@ -2,15 +2,13 @@
   (:require [clojure.java.io :as io]
             [clojure.string :as s]
             [me.raynes.conch :refer [programs]]
-            [pallet.stevedore :refer [script with-script-language]]
-            [pallet.script :refer [with-script-context]]
             [clj-commons-exec :as exec]
             [popchange.config :as cfg]
             [popchange.db.conn :as conn]
             [popchange.db.raster-calculation :as db]
             [popchange.util :as util]))
 
-(programs gdal_translate gdalinfo python rm) ;; requires gdal-bin package on host
+(programs gdal_translate gdalinfo python) ;; requires gdal-bin package on host
 
 (def working-dir cfg/working-dir)
 
@@ -322,38 +320,11 @@
   (let [basename (util/md5 tiff)
         wd (wdir "/" basename "_tmp")
         tmpf (partial str wd "/")
-        vector-file (str basename ".shp")
-        ;;bn (partial str basename)
-        ;;vector-files [(bn ".shp") (bn ".shx") (bn ".dbf")]
-        ]
-    ;; (def vf vector-files)
-    ;; (util/run-script)
-    (comment
-      (with-script-language :pallet.stevedore.bash/bash
-        (script
-         ("mkdir" ~wd)
-         ("gdal_polygonize.py" ~tiff "-f" "ESRI Shapefile" ~(tmpf vector-file))
-         ("cd" ~wd)
-         ("zip" "-r" ~dst ".")
-         ("cd")
-         ("rm" "-Rf" ~wd)
-         )))
-
-    (comment
-      (with-script-language :pallet.stevedore.bash/bash
-        (with-script-context [:default]
-          (script
-           ("ls")
-           ))))
-
+        vector-file (str basename ".shp")]
     (do
       @(exec/sh ["mkdir" wd])
       @(exec/sh ["gdal_polygonize.py" tiff "-f" "ESRI Shapefile" (tmpf vector-file)])
       @(exec/sh ["cd" wd])
       @(exec/sh ["zip" "-r" dst "."])
       @(exec/sh ["cd"])
-      @(exec/sh ["rm" "-Rf" wd]))
-    
-
-    
-))
+      @(exec/sh ["rm" "-Rf" wd]))))
