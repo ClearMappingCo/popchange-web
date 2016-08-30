@@ -150,6 +150,8 @@
     [:strong
      [:a {:href (:pdf-url params) :target "_blank"} "Download PDF"]]
     [:br]
+    [:a {:href (:img-src-png params) :target "_blank"} "Download PNG"]
+    [:br]
     [:a {:href (:img-src-tiff params) :target "_blank"} "Download GeoTIFF"]
     [:br]
     [:a {:href (:img-src-shp params) :target "_blank"} "Download Shapefile"]
