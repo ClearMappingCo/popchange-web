@@ -315,16 +315,22 @@
            (s/replace "{REPLACE_COLOUR_RAMP}" (apply str (colour-map-stops-xml stops)))))
       (python raster-to-png-script tiff style-filename png))))
 
-(defn tiff->shapefile-zip
-  [tiff dst]
+(defn tiff->vector!
+  [tiff dst vector-file-ext ogr-format]
   (let [basename (util/md5 tiff)
         wd (wdir "/" basename "_tmp")
         tmpf (partial str wd "/")
-        vector-file (str basename ".shp")]
+        vector-file (str basename vector-file-ext)]
     (do
       @(exec/sh ["mkdir" wd])
-      @(exec/sh ["gdal_polygonize.py" tiff "-f" "ESRI Shapefile" (tmpf vector-file)])
-      @(exec/sh ["cd" wd])
-      @(exec/sh ["zip" "-r" dst "."])
-      @(exec/sh ["cd"])
+      @(exec/sh ["gdal_polygonize.py" tiff "-f" ogr-format (tmpf vector-file)])
+      @(exec/sh ["zip" "-r" dst "."] {:dir wd})
       @(exec/sh ["rm" "-Rf" wd]))))
+
+(defn tiff->shapefile-zip!
+  [tiff dst]
+  (tiff->vector! tiff dst ".shp" "ESRI Shapefile"))
+
+(defn tiff->mapinfo-zip!
+  [tiff dst]
+  (tiff->vector! tiff dst ".tab" "Mapinfo File"))
