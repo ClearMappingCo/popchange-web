@@ -1,8 +1,10 @@
-# popchange
+# PopChange
 
-generated using Luminus version "2.9.10.76"
+A visualisation tool that lets you compare UK census population data, such as deprivation, ethnicity or health, for years between 1971 to 2011, on a map of your local area.
 
-FIXME
+Available online:
+
+https://popchange.liverpool.ac.uk/
 
 ## Prerequisites
 
@@ -18,4 +20,4 @@ To start a web server for the application, run:
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 Ben Whorwood.
