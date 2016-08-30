@@ -2,7 +2,9 @@
   (:require [clojure.java.io :as io]
             [clojure.string :as s]
             [me.raynes.conch :refer [programs]]
-            [me.raynes.conch.low-level :refer [proc] :as sh]
+            [pallet.stevedore :refer [script with-script-language]]
+            [pallet.script :refer [with-script-context]]
+            [clj-commons-exec :as exec]
             [popchange.config :as cfg]
             [popchange.db.conn :as conn]
             [popchange.db.raster-calculation :as db]
@@ -325,10 +327,33 @@
         ;;vector-files [(bn ".shp") (bn ".shx") (bn ".dbf")]
         ]
     ;; (def vf vector-files)
+    ;; (util/run-script)
+    (comment
+      (with-script-language :pallet.stevedore.bash/bash
+        (script
+         ("mkdir" ~wd)
+         ("gdal_polygonize.py" ~tiff "-f" "ESRI Shapefile" ~(tmpf vector-file))
+         ("cd" ~wd)
+         ("zip" "-r" ~dst ".")
+         ("cd")
+         ("rm" "-Rf" ~wd)
+         )))
+
+    (comment
+      (with-script-language :pallet.stevedore.bash/bash
+        (with-script-context [:default]
+          (script
+           ("ls")
+           ))))
+
     (do
-      (.mkdir (io/as-file wd))
-      (sh/proc "gdal_polygonize.py" tiff "-f" "ESRI Shapefile" (tmpf vector-file))
-      (sh/exit-code (sh/proc "zip" "-r" dst "." :dir wd))
-      (sh/exit-code (sh/proc "rm" "-Rf" wd))
-      )
+      @(exec/sh ["mkdir" wd])
+      @(exec/sh ["gdal_polygonize.py" tiff "-f" "ESRI Shapefile" (tmpf vector-file)])
+      @(exec/sh ["cd" wd])
+      @(exec/sh ["zip" "-r" dst "."])
+      @(exec/sh ["cd"])
+      @(exec/sh ["rm" "-Rf" wd]))
+    
+
+    
 ))
