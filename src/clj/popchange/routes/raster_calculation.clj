@@ -94,7 +94,6 @@
       {:raster-calc true
        :raster-calc-id calc-id
        :img-src-tiff (str "/raster-calc-tiff?id=" calc-id)
-       :img-src-jpeg (str "/raster-calc-jpeg?id=" calc-id)
        :img-src-png (str "/raster-calc-png?id=" calc-id)
        :img-src-shp (str "/raster-calc-shp?id=" calc-id)
        :img-src-tab (str "/raster-calc-tab?id=" calc-id)
@@ -148,7 +147,6 @@
         excl-low-count-cells (not (empty? (:excl-lcc params)))]
     (do
       (raster-calc/tiff! filename (:area params) (:set1 params) (:set2 params) excl-low-count-cells)
-      (raster-calc/tiff->jpeg! filename (raster-calc/working-dir-file calc-id "jpeg"))
       (raster-calc/tiff->png! filename (raster-calc/working-dir-file calc-id "png"))
       calc-id)))
 
@@ -192,7 +190,6 @@
   (POST "/raster-calc-gen-alt" request #(do (log-raster-calcation! %) (html (raster-calculation! (assoc-tables %)))))
 
   (GET "/raster-calc-tiff" [id] (util/byte-array-response (raster-calc/working-dir-file id) "image/tiff"))
-  (GET "/raster-calc-jpeg" [id] (util/byte-array-response (raster-calc/working-dir-file id "jpeg") "image/jpeg"))
   (GET "/raster-calc-png" [id] (util/byte-array-response (raster-calc/working-dir-file id "png") "image/png"))
 
   (GET "/raster-calc-shp" [id] (vector-zip! raster-calc/tiff->shapefile-zip! id))

@@ -157,8 +157,6 @@
     [:a {:href (:img-src-shp params) :target "_blank"} "Download Shapefile"]
     [:br]
     [:a {:href (:img-src-tab params) :target "_blank"} "Download MapInfo TAB"]
-    [:br]
-    [:a {:href (:img-src-jpeg params) :target "_blank"} "Download JPEG (greyscale)"]
     [:br] [:br]
     (source-data-links 1 (-> params :source-data :set1))
     (source-data-links 2 (-> params :source-data :set2))]])
