@@ -120,6 +120,7 @@
       "Max: " (-> params :info :maximum) [:br]
       "Min: " (-> params :info :minimum) [:br]
       "Mean: " (-> params :info :mean) [:br]
+      "Median: " (format "%.3f" (-> params :info :median)) [:br]
       "StdDev: " (-> params :info :std-dev)
       ]]))
 

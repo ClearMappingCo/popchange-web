@@ -24,10 +24,15 @@
     (if-not (.isDirectory wd)
       (.mkdir wd))))
 
+
+;; TODO Refactor extracting scripts
 (def cumulative-cut-script-src "scripts/cumulative_cut_min_max.py")
 (def cumulative-cut-script (str working-dir "/cumulative_cut_min_max.py"))
 (def raster-to-png-script-src "scripts/raster_to_png.py")
 (def raster-to-png-script (str working-dir "/raster_to_png.py"))
+(def raster-median-script-src "scripts/raster_median.py")
+(def raster-median-script (str working-dir "/raster_median.py"))
+
 (def raster-style-template "scripts/raster_style_template.qml")
 
 (defn prep-scripts!
@@ -38,7 +43,9 @@
     (if-not (.exists (io/as-file cumulative-cut-script))
       (spit cumulative-cut-script (slurp (io/resource cumulative-cut-script-src))))
     (if-not (.exists (io/as-file raster-to-png-script))
-      (spit raster-to-png-script (slurp (io/resource raster-to-png-script-src))))))
+      (spit raster-to-png-script (slurp (io/resource raster-to-png-script-src))))
+    (if-not (.exists (io/as-file raster-median-script))
+      (spit raster-median-script (slurp (io/resource raster-median-script-src))))))
 
 (defn sets
   "Data sets available for generating raster calculations"
@@ -96,6 +103,12 @@
     (let [vals (s/split (python cumulative-cut-script filename) #" ")]
       {:min (Double. (first vals))
        :max (Double. (second vals))})))
+
+(defn median
+  [filename]
+  (do
+    (prep-scripts!)
+    (Double. (python raster-median-script filename))))
 
 ;; https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.050000000000000044,0.4863328728314287,1,0.04550000000000004,0.91,0.4170136015589975,0.8899342843958493,1,0,0.91,0.565626307834159,0,1,0.045165788032136334,0&swatchOrder=0,1,2,3,4
 (def colour-map-stop-values
@@ -161,7 +174,8 @@
      :minimum (Double. (s/trim (nth summary-stats 1)))
      :maximum (Double. (s/trim (nth summary-stats 2)))
      :mean (Double. (s/trim (nth summary-stats 3)))
-     :std-dev (Double. (s/trim (nth summary-stats 4)))}))
+     :std-dev (Double. (s/trim (nth summary-stats 4)))
+     :median (median filename)}))
 
 (defn source-data-path-map
   [set-key set-paths counts-table]
