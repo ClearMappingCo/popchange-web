@@ -89,5 +89,7 @@
            [:a {:href "https://www.liverpool.ac.uk/spatial-demographics/"}
             [:img {:src "/img/csdr_logo.png"}]]]]]]
        [:div.container.text-center
-        [:p.text-muted "University of Liverpool PopChange v1.0 by "
-         [:a {:href "http://www.clearmapping.co.uk/"} "Clear Mapping Co"]]]]])))
+        [:p.text-muted "University of Liverpool PopChange by " 
+         [:a {:href "http://www.clearmapping.co.uk/"} "Clear Mapping Co"] ". "
+         "Source code available on "
+         [:a {:href "https://github.com/ClearMappingCo/popchange-web"} "GitHub"] "."]]]])))
