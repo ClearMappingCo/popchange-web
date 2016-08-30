@@ -40,5 +40,11 @@ maskedrd = numpy.ma.masked_array(rasterdata, rasterdata == -1.0)
 # print numpy.mean(rasterdata), numpy.median(rasterdata), numpy.max(rasterdata), numpy.min(rasterdata)
 # print numpy.ma.mean(maskedrd), numpy.ma.median(maskedrd), numpy.ma.max(maskedrd), numpy.ma.min(maskedrd)
 
-sys.stdout.write(str(numpy.ma.median(maskedrd)[0]))
+ret = None
+if type(numpy.ma.median(maskedrd)) is numpy.float64:
+    ret = numpy.ma.median(maskedrd)
+else:
+    ret = numpy.ma.median(maskedrd)[0]
+
+sys.stdout.write(str(ret))
 sys.stdout.flush()
