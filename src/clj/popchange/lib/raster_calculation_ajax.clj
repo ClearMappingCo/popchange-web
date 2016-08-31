@@ -130,7 +130,7 @@
 
 (defn source-data-links
   [{:keys [asc csv csvt counts-table title] :as params}]
-  (if (some #(if % true) (-> params (dissoc :counts-table) vals))
+  (if (some #(if % true) (-> params (dissoc :counts-table :title) vals)) ;; Has some truthy values, include download links
     [:div
      (format "%s source data: " title)
      (if asc
