@@ -34,7 +34,6 @@
 
 (defn render
   [panel & [params]]
-  (prn params)
   (let [params
         (assoc params
                :csrf-token *anti-forgery-token*)]
