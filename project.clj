@@ -39,7 +39,6 @@
                  [me.raynes/cegdown "0.1.1"]
                  [clj-pdf "2.2.3"]
                  [com.draines/postal "2.0.0"]
-                 [com.palletops/stevedore "0.8.0-beta.7"]
                  [org.clojars.hozumi/clj-commons-exec "1.2.0"]]
 
   :min-lein-version "2.0.0"
