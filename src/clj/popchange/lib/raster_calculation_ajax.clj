@@ -127,16 +127,16 @@
 (def source-data-url (partial str (:source-data-host config) "/"))
 
 (defn source-data-links
-  [set-num {:keys [asc csv csvt counts-table] :as params}]
+  [{:keys [asc csv csvt counts-table title] :as params}]
   (if (some #(if % true) (-> params (dissoc :counts-table) vals))
     [:div
-     (format "Set %d source data: " set-num)
+     (format "%s source data: " title)
      (if asc
-       [:a {:href (source-data-url asc) :target "_blank" :title (str "Download source ASCII grid data for set " set-num)} "ASC"]) " "
+       [:a {:href (source-data-url asc) :target "_blank" :title (str "Download source ASCII grid data for set " title)} "ASC"]) " "
      (if csv
-       [:a {:href (source-data-url csv) :target "_blank" :title (str "Download source lookup CSV data for set " set-num)} "CSV"]) " "
+       [:a {:href (source-data-url csv) :target "_blank" :title (str "Download source lookup CSV data for set " title)} "CSV"]) " "
      (if csvt
-       [:a {:href (source-data-url csvt) :target "_blank" :title (str "Download source lookup CSV types data for set " set-num)} "CSVT"])
+       [:a {:href (source-data-url csvt) :target "_blank" :title (str "Download source lookup CSV types data for set " title)} "CSVT"])
 
      (if-not counts-table
        ;; No lookup CSVs for rates (discussed during call with Nick Bearman 24/08/2016)
@@ -158,5 +158,5 @@
     [:br]
     [:a {:href (:img-src-tab params) :target "_blank"} "Download MapInfo TAB"]
     [:br] [:br]
-    (source-data-links 1 (-> params :source-data :set1))
-    (source-data-links 2 (-> params :source-data :set2))]])
+    (source-data-links (-> params :source-data :set1))
+    (source-data-links (-> params :source-data :set2))]])

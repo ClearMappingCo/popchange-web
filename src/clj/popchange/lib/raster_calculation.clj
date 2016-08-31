@@ -187,7 +187,8 @@
    {:asc ((if counts-table :counts_path :rates_path) set-paths)
     :csv (:counts_lookup_path set-paths)
     :csvt (:counts_lookup_types_path set-paths)
-    :counts-table counts-table}})
+    :counts-table counts-table
+    :title (format "%d %s" (:cenus_year set-paths) (:title set-paths))}})
 
 (defn source-data-paths
   [set1 set2 counts-table]

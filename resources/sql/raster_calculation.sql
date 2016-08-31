@@ -110,7 +110,7 @@ SELECT CASE WHEN COUNT(*)=0 THEN true ELSE false END AS tf FROM attribs WHERE ra
 
 -- :name attribs-paths
 -- :doc Paths for attrib
-SELECT id, counts_path, rates_path, counts_lookup_path, counts_lookup_types_path FROM attribs WHERE id IN (:v*:ids);
+SELECT id, cenus_year, title, counts_path, rates_path, counts_lookup_path, counts_lookup_types_path FROM attribs WHERE id IN (:v*:ids);
 
 
 -- :name comparison-quality
