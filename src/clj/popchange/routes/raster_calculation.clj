@@ -30,13 +30,14 @@
        (io/resource filename)))))
 
 (defn resources
-  [{:keys [params]}]
+  [{:keys [params] :as request}]
   (layout/render
    markdown-view/main-panel
    (merge
     params
     {:page-title "Resources"
-     :page-content (doc-page-content "docs/resources.md")})))
+     :page-content (doc-page-content "docs/resources.md")
+     :active-page :resources})))
 
 (defn faq
   [{:keys [params]}]
@@ -45,14 +46,16 @@
    (merge
     params
     {:page-title "Frequently Asked Questions"
-     :page-content (doc-page-content "docs/faq.md")})))
+     :page-content (doc-page-content "docs/faq.md")
+     :active-page :faq})))
 
 (defn feedback
   [{:keys [params flash]}]
   (layout/render
    feedback-view/main-panel
    (merge params
-          (select-keys flash [:errors :messages]))))
+          (select-keys flash [:errors :messages])
+          {:active-page :feedback})))
 
 (defn save-feeback! ;; TODO Properly destructure request
   [request]
@@ -74,7 +77,8 @@
     params
     {:areas (raster-calc/clip-areas)
      :sets (raster-calc/sets)
-     :set-years (raster-calc/set-years)})))
+     :set-years (raster-calc/set-years)
+     :active-page :raster-calculation})))
 
 (defn rates-table?
   [params]
@@ -189,6 +193,7 @@
   (POST "/raster-calc-gen" request (raster-calculation (raster-calculation-params (:params request) (raster-calculation! request)))) ;; TODO: Temporarily disable (untested)
   (POST "/raster-calc-gen-alt" request #(do (log-raster-calcation! %) (html (raster-calculation! (assoc-tables %)))))
 
+  ;;; Downloads
   (GET "/raster-calc-tiff" [id] (util/byte-array-response (raster-calc/working-dir-file id) "image/tiff"))
   (GET "/raster-calc-png" [id] (util/byte-array-response (raster-calc/working-dir-file id "png") "image/png"))
 
@@ -228,7 +233,6 @@
   (GET "/resources" request (resources request))
   (GET "/faq" request (faq request))
   
-
   (GET "/feedback" request (feedback request))
   (POST "/feedback" request (save-feeback! request))
   )

@@ -3,8 +3,38 @@
             [ring.util.anti-forgery :refer [anti-forgery-field]]
             [ring.middleware.anti-forgery :refer [*anti-forgery-token*]]))
 
+
+(def pages
+  (let [p (fn [title url] {:title title :url url})]
+    {:raster-calculation
+     (p "Raster Calculation" "/raster-calc")
+     :resources
+     (p "Resources" "/resources")
+     :faq
+     (p "FAQ" "/faq")
+     :data-dl
+     (p "Data" "http://popchange-data.liverpool.ac.uk")
+     :feedback
+     (p "Feedback" "/feedback")
+     :logout
+     (p "Logout" "/logout")}))
+
+(defn navigation
+  [active-page]
+  [:div#navbar.navbar-collapse.collapse
+   ;; https://getbootstrap.com/examples/navbar-static-top/
+   [:ul.nav.navbar-nav
+    (map
+     (fn [k]
+       (let [page (k pages)
+             params (if (= active-page k) {:class "active"})]
+         [:li params
+          [:a {:href (:url page)} (:title page)]]))
+     (keys pages))]])
+
 (defn render
   [panel & [params]]
+  (prn params)
   (let [params
         (assoc params
                :csrf-token *anti-forgery-token*)]
@@ -18,7 +48,7 @@
        {:rel "stylesheet"
         :href "/css/bootstrap.min.css"
         :type "text/css"}]
-        [:link
+      [:link
        {:rel "stylesheet"
         :href "/css/ie10-viewport-bug-workaround.css"
         :type "text/css"}]
@@ -54,21 +84,7 @@
                                              :data-toggle "collapse"}]
            [:a.navbar-brand {:href "/"}
             [:img {:src "/img/popchange_logo.png"}]]]
-          [:div#navbar.navbar-collapse.collapse
-           ;; https://getbootstrap.com/examples/navbar-static-top/
-           [:ul.nav.navbar-nav
-            [:li.active
-             [:a {:href "/raster-calc"} "Raster Calculation"]]
-            [:li
-             [:a {:href "/resources"} "Resources"]]
-            [:li
-             [:a {:href "/faq"} "FAQ"]]
-            [:li
-             [:a {:href "http://popchange-data.liverpool.ac.uk"} "Data"]]
-            [:li
-             [:a {:href "/feedback"} "Feedback"]]
-            [:li
-             [:a {:href "/logout"} "Logout"]]]]])]
+          (navigation (:active-page params))])]
 
       [:div.wrapper (panel params)]
 
