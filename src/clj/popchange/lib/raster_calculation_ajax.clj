@@ -126,6 +126,8 @@
 
 (def source-data-url (partial str (:source-data-host config) "/"))
 
+(def source-data-csv-shapefile (source-data-url "vector-grid.zip")) ;; File in data
+
 (defn source-data-links
   [{:keys [asc csv csvt counts-table title] :as params}]
   (if (some #(if % true) (-> params (dissoc :counts-table) vals))
@@ -159,4 +161,8 @@
     [:a {:href (:img-src-tab params) :target "_blank"} "Download MapInfo TAB"]
     [:br] [:br]
     (source-data-links (-> params :source-data :set1))
-    (source-data-links (-> params :source-data :set2))]])
+    (source-data-links (-> params :source-data :set2))
+    (if (or (-> params :source-data :set1 :csv) (-> params :source-data :set2 :csv))
+      [:div
+       [:br]
+       [:a {:href source-data-csv-shapefile :target "_blank"} "Shapefile for CSV lookup"]])]])
