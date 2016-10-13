@@ -20,7 +20,7 @@ This document will be replaced with a journal article in due course – please c
 
 ###PopChange Web Resource
 
-This website (http://popchange.liverpool.ac.uk) was developed using a range of open resources and the source code will be available soon at [https://github.com/ClearMappingCo/popchange-web](https://github.com/ClearMappingCo/popchange-web). 
+This website (http://popchange.liverpool.ac.uk) was developed using a range of open resources and the source code is available soon at [https://github.com/ClearMappingCo/popchange-web](https://github.com/ClearMappingCo/popchange-web). 
 
 ###Using the PopChange Resource
 
