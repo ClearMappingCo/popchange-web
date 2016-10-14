@@ -43,6 +43,6 @@
    [:div.user-login-intro
     [:div.container
      [:div.col-md-10.col-md-offset-1.text-center
-      [:p.lead "Welcome to our visualisation tool for Cenus data."]
-      [:p.lead "Compare any Cenus population data, such as deprivation, ethnicity or health, for years between 1971 to 2011, on a map of your local area."]
+      [:p.lead "Welcome to our visualisation tool for Census data."]
+      [:p.lead "Compare any Census population data, such as deprivation, ethnicity or health, for years between 1971 to 2011, on a map of your local area."]
       [:p.lead "This is a FREE tool, but please register above to utilise fully."]]]]])
