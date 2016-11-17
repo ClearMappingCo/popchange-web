@@ -35,6 +35,8 @@
 (def raster-to-png-script (str working-dir "/raster_to_png.py"))
 (def raster-median-script-src "scripts/raster_median.py")
 (def raster-median-script (str working-dir "/raster_median.py"))
+(def gdal-polygonize-script-src "scripts/gdal_polygonize.py")
+(def gdal-polygonize-script (str working-dir "/gdal_polygonize.py"))
 
 (def raster-style-template "scripts/raster_style_template.qml")
 
@@ -48,7 +50,9 @@
     (if-not (.exists (io/as-file raster-to-png-script))
       (spit raster-to-png-script (slurp (io/resource raster-to-png-script-src))))
     (if-not (.exists (io/as-file raster-median-script))
-      (spit raster-median-script (slurp (io/resource raster-median-script-src))))))
+      (spit raster-median-script (slurp (io/resource raster-median-script-src))))
+    (if-not (.exists (io/as-file gdal-polygonize-script))
+      (spit gdal-polygonize-script (slurp (io/resource gdal-polygonize-script-src))))))
 
 (defn sets
   "Data sets available for generating raster calculations"
@@ -308,6 +312,7 @@
         style-template (slurp (io/resource raster-style-template))
         stops (colour-map-stops tiff)]
     (do
+      (prep-scripts!)
       (spit
        style-filename
        (-> style-template
@@ -323,8 +328,9 @@
         tmpf (partial str wd "/")
         vector-file (str basename vector-file-ext)]
     (do
+      (prep-scripts!)
       @(exec/sh ["mkdir" wd])
-      @(exec/sh ["gdal_polygonize.py" tiff "-f" ogr-format (tmpf vector-file)])
+      (python gdal-polygonize-script tiff "-f" ogr-format "-p" (tmpf vector-file))
       @(exec/sh ["zip" "-r" dst "."] {:dir wd})
       @(exec/sh ["rm" "-Rf" wd]))))
 
