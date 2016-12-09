@@ -107,7 +107,16 @@
   [filename]
   (do
     (prep-scripts!)
-    (let [vals (s/split (python cumulative-cut-script filename) #" ")]
+    ;; (println filename)
+    (let [outp (python cumulative-cut-script filename)
+          clnd (-> outp
+                   (s/replace "ERROR: Auth db directory path could not be created" "")
+                   (s/replace "ERROR: Opening of authentication db FAILED" "")
+                   s/trim)
+          vals (s/split clnd #" ")]
+      ;; (println outp)
+      ;; (spit "/var/opt/popchange/btmp.log" outp)
+      ;; (println vals)
       {:min (Double. (first vals))
        :max (Double. (second vals))})))
 
