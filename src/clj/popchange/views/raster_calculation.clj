@@ -158,7 +158,7 @@
   [:div.container
    [:div.page-header
     [:h1 "Raster Calculation Visualisation"]]
-   [:p.lead "Generate a visualisation based on the calculation between two data sets (" [:code "[set 1] - [set 2]"] "). The visualisation can be used to identity areas of positive or negative growth by looking for \"hot spots\" and vice-versa."]
+   [:p.lead "Generate a visualisation based on the calculation between two data sets (" [:code "[set 1] - [set 2]"] "). The visualisation can be used to identity areas of positive or negative growth by looking for \"hot spots\" and vice-versa. Set 1 should be the most recent date (e.g. 2011) and set 2 should be the older date (e.g. 1991). Then positive values are increases and negative values are decreases."]
 
    [:div.col-md-4
     [:div.non-js
