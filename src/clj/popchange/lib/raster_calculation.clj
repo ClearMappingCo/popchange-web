@@ -124,7 +124,9 @@
   [filename]
   (do
     (prep-scripts!)
-    (Double. (python raster-median-script filename))))
+    (if-let [m (python raster-median-script filename {:throw false})]
+      (if-not (empty? m)
+        (Double. m)))))
 
 ;; https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.050000000000000044,0.4863328728314287,1,0.04550000000000004,0.91,0.4170136015589975,0.8899342843958493,1,0,0.91,0.565626307834159,0,1,0.045165788032136334,0&swatchOrder=0,1,2,3,4
 (def colour-map-stop-values
