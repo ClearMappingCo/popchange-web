@@ -14,9 +14,7 @@ The process of generating the grids from the original census geographies (output
 
 The approach to creation of the population surfaces is detailed [here](https://www.liverpool.ac.uk/media/livacuk/schoolofenvironmentalsciences/geography/research/popchange/PopulationSurfaces.pdf). When using the PopChange population surfaces in publications please cite this document as follows:  
 
-Lloyd, C. D., Bearman, N., Catney, G, Singleton, A. and Williamson, P. (2016) PopChange. Liverpool: Centre for Spatial Demographics Research, University of Liverpool. [https://www.liverpool.ac.uk/geography-and-planning/research/popchange/introduction/](https://www.liverpool.ac.uk/geography-and-planning/research/popchange/introduction/)  
-
-This document will be replaced with a journal article in due course – please check the PopChange website for updates to the core project publications.
+Lloyd, C. D., Catney, G., Williamson, P. and Bearman, N. (2017) Exploring the utility of grids for analysing long term population change. Computers, Environment and Urban Systems, 66, 1–12.  [http://www.sciencedirect.com/science/article/pii/S019897151730145X](http://www.sciencedirect.com/science/article/pii/S019897151730145X)
 
 ###PopChange Web Resource
 
