@@ -6,6 +6,14 @@ This webpage contains a list of additional resources for the PopChange project. 
 
 The PopChange website is the public facing part of a research project lead by [Prof. Chris Lloyd](https://www.liverpool.ac.uk/environmental-sciences/staff/christopher-lloyd/) at University of Liverpool. The [project website](https://www.liverpool.ac.uk/geography-and-planning/research/popchange/introduction/) contains more information on the research project including current research papers. 
 
+###Policy Briefings
+The PopChange team is writing a series of short (four page) policy briefings which summarise research which has been undertaken as a part of the project. Additional briefings will be added in the coming months; themes of planned briefings include deprivation change in Britain, and country of birth and ethnicity.
+ 
+1.    [Population Change in Britain](http://www.nickbearman.me.uk/data/PopChange1_PopulationChange.pdf), 1971-2011 Chris Lloyd, Gemma Catney, Paul Williamson and Nick Bearman (2017) (full journal article available at: [http://www.sciencedirect.com/science/article/pii/S019897151730145X](http://www.sciencedirect.com/science/article/pii/S019897151730145X))
+2.    Deprivation Change in Britain, 1971-2011: forthcoming
+ 
+For more information, please contact [Chris Lloyd](mailto:c.d.lloyd@liverpool.ac.uk).
+
 ###Grid Generation Process and R Script
 
 The process of generating the grids from the original census geographies (output areas or enumeration districts) are documented on the project website. The R scripts for this are at [https://github.com/nickbearman/popchange](https://github.com/nickbearman/popchange) with inline comments outlining the process. 
@@ -18,7 +26,7 @@ Lloyd, C. D., Catney, G., Williamson, P. and Bearman, N. (2017) Exploring the ut
 
 ###PopChange Web Resource
 
-This website ([http://popchange.liverpool.ac.uk](http://popchange.liverpool.ac.uk)) was developed using a range of open resources and the source code is available soon at [https://github.com/ClearMappingCo/popchange-web](https://github.com/ClearMappingCo/popchange-web). 
+This website ([http://popchange.liverpool.ac.uk](http://popchange.liverpool.ac.uk)) was developed using a range of open resources and the source code is available at [https://github.com/ClearMappingCo/popchange-web](https://github.com/ClearMappingCo/popchange-web). 
 
 ###Using the PopChange Resource
 
