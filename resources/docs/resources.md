@@ -9,7 +9,7 @@ The PopChange website is the public facing part of a research project lead by [P
 ###Policy Briefings
 The PopChange team is writing a series of short (four page) policy briefings which summarise research which has been undertaken as a part of the project. Additional briefings will be added in the coming months; themes of planned briefings include deprivation change in Britain, and country of birth and ethnicity.
  
-1.    [Population Change in Britain](http://www.nickbearman.me.uk/data/PopChange1_PopulationChange.pdf), 1971-2011 Chris Lloyd, Gemma Catney, Paul Williamson and Nick Bearman (2017) (full journal article available at: [http://www.sciencedirect.com/science/article/pii/S019897151730145X](http://www.sciencedirect.com/science/article/pii/S019897151730145X))
+1.    [Population Change in Britain](https://popchange-data.liverpool.ac.uk/docs/briefing1-population-change.pdf), 1971-2011 Chris Lloyd, Gemma Catney, Paul Williamson and Nick Bearman (2017) (full journal article available at: [http://www.sciencedirect.com/science/article/pii/S019897151730145X](http://www.sciencedirect.com/science/article/pii/S019897151730145X))
 2.    Deprivation Change in Britain, 1971-2011: forthcoming
  
 For more information, please contact [Chris Lloyd](mailto:c.d.lloyd@liverpool.ac.uk).
