@@ -158,7 +158,7 @@
   [:div.container
    [:div.page-header
     [:h1 "Raster Calculation Visualisation"]]
-   [:p.lead "To compute a map of differences between two years enter the most recent year (e.g., 2011) first (" [:code "[set 1]"] ") and the older year (e.g., 1991) second (" [:code "[set 2]"] "). Negative values will represent decreases and positive values will represent increases."]
+   [:p.lead "Generate a visualisation based on the calculation between two data sets to identify areas of positive or negative growth. To compute a map of differences between two years enter the most recent year (e.g., 2011) first (" [:code "[set 1]"] ") and the older year (e.g., 1991) second (" [:code "[set 2]"] "). Negative values will represent decreases and positive values will represent increases."]
 
    [:div.col-md-4
     [:div.non-js
